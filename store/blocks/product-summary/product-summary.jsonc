@@ -1,7 +1,6 @@
 {
   "product-summary.shelf": {
     "children": [
-      "flex-layout.row#immenvio",
       "stack-layout#prodsum",
       "product-summary-name",
       //"flex-layout.col#productRating",
@@ -36,16 +35,6 @@
   
   
 
-
-
-  "flex-layout.row#immenvio":{
-    "children":[
-      "image#envioall"
-    ],"props":{
-      "horizontalAlign":"right",
-      "blockClass":"rowimgenvio"
-    }
-  },  
   "image#envioall":{
     "props":{
       "src":"assets/envio35px.png",
@@ -60,6 +49,25 @@
       "maxHeight": 300
     }
   },
+
+  /*"vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Temporada","Prueba1","Prueba2"]
+      }
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "highcollection"
+    }
+  },*/
+
+
 
 
 
@@ -137,7 +145,6 @@
 
   "product-summary.shelf#mob": {
     "children": [
-      "flex-layout.row#immenvio",
       "stack-layout#prodsum",
       "product-summary-name",
       //"flex-layout.col#productRating",

@@ -354,7 +354,7 @@
     "itemsPerPage": {
       "desktop": 4,
       "tablet": 2 ,
-      "phone": 2
+      "phone": 1
     },
     "infinite": true,
     "showNavigationArrows": "desktopOnly",
@@ -802,7 +802,10 @@
 "flex-layout.row#ideas":{
   "children":[
     "rich-text#ideas"
-  ]
+  ],"props":{
+    "fullWidth":true,
+    "blockClass":"rowideas"
+  }
 },"rich-text#ideas":{
   "props":{
     "text":"## NUEVAS IDEAS PARA <br> TRANSFORMAR TU HOGAR"
@@ -813,14 +816,16 @@
   "children":[
     "slider-layout#sldideas"
   ],"props":{
-    "horizontalAlignment":"center"
+    "horizontalAlignment":"center",
+    "fullWidth":true,
+    "blockClass":"rowideas"
   }
 },
 "slider-layout#sldideas": {
   "props": {
     "fullWidth":true,
     "itemsPerPage": {
-      "desktop": 4,
+      "desktop": 5,
       "tablet": 2 ,
       "phone": 1
     },
@@ -832,7 +837,8 @@
     "flex-layout.col#ideas1", 
     "flex-layout.col#ideas2",
     "flex-layout.col#ideas3",
-    "flex-layout.col#ideas3"
+    "flex-layout.col#ideas4",
+    "flex-layout.col#ideas4"
   ]
 },
 "flex-layout.col#ideas1":{

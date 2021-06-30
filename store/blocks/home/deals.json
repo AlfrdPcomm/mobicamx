@@ -12,13 +12,8 @@
 
   "flex-layout.col#deals1": {
     "children": [
-      "flex-layout.row#deals1"      
-    ]
-  },
-  "flex-layout.row#deals1":{
-    "children":[
       "image#deal1",
-      "rich-text#deal1"
+      "rich-text#deal1"    
     ]
   },
   "image#deal1": {
@@ -35,11 +30,6 @@
   },
   "flex-layout.col#deals2": {
     "children": [
-      "flex-layout.row#deals2"
-    ]
-  },
-  "flex-layout.row#deals2":{
-    "children":[
       "image#deal2",
       "rich-text#deal2"
     ]
@@ -58,13 +48,8 @@
   },
   "flex-layout.col#deals3": {
     "children": [
-      "flex-layout.row#deals3"      
-    ]
-  },
-  "flex-layout.row#deals3":{
-    "children":[
       "image#deal3",
-      "rich-text#deal3"
+      "rich-text#deal3"      
     ]
   },
   "image#deal3": {
@@ -76,24 +61,6 @@
   "rich-text#deal3": {
     "props": {
       "text": "PROMOCIONES ESPECIALES",
-      "blockClass": "deals"
-    }
-  },
-  "flex-layout.col#deals4": {
-    "children": [
-      "image#deal4",
-      "rich-text#deal4"
-    ]
-  },
-  "image#deal4": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
-    }
-  },
-  "rich-text#deal4": {
-    "props": {
-      "text": "Exclusive deals",
       "blockClass": "deals"
     }
   }

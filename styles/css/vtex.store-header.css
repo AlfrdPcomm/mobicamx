@@ -55,7 +55,7 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    background: rgba(240, 240, 240, 0.8);
+    background: rgba(240, 240, 240, 1);
   }
 }
 
@@ -190,7 +190,7 @@
     :global(.vtex-input)
       :global(.vtex-input-prefix__group){
         border-color: #F6F6F4 !important; 
-        width: 60% !important;
+        width: 60% ;
       }
 
 :global(.vtex-store-components-3-x-searchBarIcon--stylesrch--search){

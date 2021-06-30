@@ -63,32 +63,12 @@
     "children":[
       "menu-item#ofertass",
       "menu-item#politicas",
-      "menu-item#terminos",
-      "flex-layout.row#poweredby"
+      "menu-item#terminos"
     ],"props":{
       "blockClass":"colfoo"
     }
   },
-  "flex-layout.row#poweredby":{
-    "children":[
-      "image#pbpc",
-      "image#pbv"
-    ],"props":{
-      "blockClass":"rowpowered"
-    }
-  },
   
-  "image#pbpc":{
-    "props":{
-      "src":"assets/powpc.png"
-    }
-  },
-  "image#pbv":{
-    "props":{
-      "src":"assets/powbyvtex.png"
-    }
-  },
-
 
   "flex-layout.row#footer-2-desktop": {
     "children": [
@@ -110,14 +90,6 @@
     "props": {
       "height": 34,
       "images": [
-        {
-          "image": "assets/twitter.png",
-          "mobileImage": "assets/twitter.png",
-          "link":{
-            "url": "https://twitter.com/mobicamx",
-            "openNewTab":true
-          } 
-        },
         {
           "image": "assets/facebook.png",
           "mobileImage": "assets/facebook.png",
@@ -171,8 +143,7 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#socialmob",
-      "flex-layout.row#poweredby"
+      "flex-layout.row#socialmob"
     ]
   },
   "flex-layout.row#socialmob":{

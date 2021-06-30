@@ -27,7 +27,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "Preguntas-frecuentes",
+        "href": "/Preguntas-frecuentes",
         "noFollow": false,
         "tagTitle": "Preguntas Frecuentes",
         "text": "Preguntas Frecuentes"
@@ -43,7 +43,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "Envíos",
+        "href": "/Envíos",
         "noFollow": false,
         "tagTitle": "Envíos",
         "text": "Envíos"
@@ -59,10 +59,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "Facturacion",
+        "href": "/Facturacion",
         "noFollow": false,
         "tagTitle": "Facturación",
-        "text": "Sale"
+        "text": "Facturación"
       }
     }
   },

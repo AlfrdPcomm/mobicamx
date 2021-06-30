@@ -558,6 +558,13 @@
   :global(.vtex-product-price-1-x-sellingPriceValue){
     font-size: 19px;
   }
+
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer--stylesrch)
+    :global(.vtex-input)
+      :global(.vtex-input-prefix__group){
+        border-color: #F6F6F4 !important; 
+        width: 100% !important;
+      }
 }
 
 
@@ -707,3 +714,7 @@
 
 /*----------------------  Fin personalización producto ----------------------*/
 
+:global(.vtex-flex-layout-0-x-flexRowContent--rowideas){
+  padding-left: 5%;
+  padding-right: 5%;
+}
