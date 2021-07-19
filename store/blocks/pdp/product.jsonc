@@ -94,8 +94,8 @@
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "flex-layout.row#descripcion",
-      "flex-layout.row#textsala",
-      "flex-layout.row#coleccionsoli",
+      //"flex-layout.row#textsala",
+      //"flex-layout.row#coleccionsoli",
       "flex-layout.row#prodmenaccordion"
       //"shipping-simulator",
       //"share#default"
@@ -143,7 +143,7 @@
   },
   "vtex.menu@2.x:menu#menoprodesk":{
     "children":[
-      "menu-item#entregaprod",
+      //"menu-item#entregaprod",
       "menu-item#infomedidas"
     ],"props":{
       "orientation":"vertical"
@@ -365,14 +365,13 @@
     "children":[
       "rich-text#titshelfprod"
     ],"props":{
-      "fullWidth": true,
-      "blockClass":"rownovedades"
+      "blockClass":"rowotroscli"
     }
   },
   "rich-text#titshelfprod":{
     "props":{
-      "text":"## OTROS CLIENTES TAMBIÉN VIERON",      
-      "blockClass": "titnovedades"
+      "text":"OTROS CLIENTES TAMBIÉN VIERON",      
+      "blockClass": "otrosocli"
     }      
   },
 
@@ -380,8 +379,7 @@
     "blocks":[
       "product-summary.shelf"
     ],
-    "props":{  
-          
+    "props":{            
       "recomendation":"simirlars",
       "productList":{
         "showTitle":false,

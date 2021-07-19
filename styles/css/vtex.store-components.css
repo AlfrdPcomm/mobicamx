@@ -192,7 +192,7 @@
 :global(.vtex-tab-layout-0-x-listItem)
   :global(.vtex-button)
     :global(.vtex-button__label){
-      color: #A1A1A1;
+      color: #000000;
       padding-bottom: 0%!important;
       padding-left: 0% !important;
       font-weight: 600;
@@ -215,7 +215,7 @@
 }
 
 :global(.vtex-slider-layout-0-x-slide--carouselcats){
-  background-color: #E8E7E4;
+  background-color: #F8F8F8;
   margin-left: 15px;
   margin-right: 15px;  
   border-radius: 15px;
@@ -224,7 +224,7 @@
 :global(.vtex-rich-text-0-x-wrapper--titsldcats)
   :global(.vtex-rich-text-0-x-paragraph){
   font-weight: 600;
-  font-size: 22px;
+  font-size: 16x;
   color: #000000;
 }
 
@@ -245,7 +245,7 @@
 :global(.vtex-rich-text-0-x-wrapper--txtinfocolection)
   :global(.vtex-rich-text-0-x-paragraph){
     font-size: 16px;
-    width: 65%;
+    /*width: 65%;*/
     text-align: justify;
     margin-bottom: 0%;
 }
@@ -298,7 +298,7 @@
 /* ----------------------------Inicio newsletter   ----------------------------------- */
 
 :global(.vtex-flex-layout-0-x-flexRow--rowfullnews){
-  background-color: #EFEFE4;
+  background-color:  #E6E6E8;
   padding-top: 60px;
   padding-bottom: 30px;
 }
@@ -431,6 +431,8 @@
     padding-top: 25px;
   }
 
+
+
   :global(.vtex-rich-text-0-x-wrapper--txtinfocolection) 
     :global(.vtex-rich-text-0-x-paragraph){
       width: 100%;
@@ -555,6 +557,9 @@
 }
 
 @media (max-width: 1024px){
+  :global(.vtex-rich-text-0-x-headingLevel3--txtnews){
+    padding-left: 4%;
+  }
   :global(.vtex-product-price-1-x-sellingPriceValue){
     font-size: 19px;
   }
@@ -717,4 +722,9 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--rowideas){
   padding-left: 5%;
   padding-right: 5%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--otrosocli){
+  font-size: 30px;
+  color: #000000;
 }

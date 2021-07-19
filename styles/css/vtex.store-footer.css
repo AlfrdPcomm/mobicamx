@@ -86,3 +86,22 @@
     width: 23px;
   }
 
+
+:global(.vtex-flex-layout-0-x-flexRowContent--rowpm){
+  justify-content: flex-start;
+  padding-left: 25px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--paypalimg){
+  padding-left: 20px;
+}
+
+@media (max-width: 1024px){
+  :global(.vtex-flex-layout-0-x-flexRowContent--rowpm){
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  
+
+}

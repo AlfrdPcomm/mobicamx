@@ -55,13 +55,13 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    background: rgba(240, 240, 240, 1);
+    background: #ffffff;
   }
 }
 
 /* stick wrapper with the same color as the desktop/mobile header */
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 /* resize the logo for neat effect */
@@ -169,6 +169,7 @@
   }
 
   :global(.vtex-flex-layout-0-x-flexRow--menu-link){
+    padding-bottom: 20px;
     border-bottom: 4px solid #EEEEE4;
   }
 
@@ -190,12 +191,8 @@
     :global(.vtex-input)
       :global(.vtex-input-prefix__group){
         border-color: #F6F6F4 !important; 
-        width: 60% ;
       }
 
-:global(.vtex-store-components-3-x-searchBarIcon--stylesrch--search){
-  color: #F6F6F4;
-}
 
 :global(.vtex-flex-layout-0-x-flexRowContent--rowitemen){
   border-bottom: 1px solid #E5E5E1;
@@ -366,6 +363,7 @@
   font-family: 'Century Gothic';
   font-weight: 400;
   color: #000000;
+  text-align: center;
 }
 
 
@@ -420,4 +418,35 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--rowmenprin){
   justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--notifbarow){
+  background-color: #505F4A;
+  height: 32px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--notifbar),
+:global(.vtex-rich-text-0-x-link--notifbar){
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--notifbar){
+  border-bottom: 1px solid #ffffff;
+}
+
+:global(.vtex-rich-text-0-x-link--notifbar){
+  text-decoration: none;
+}
+
+:global(.vtex-store-components-3-x-searchIcon--stylesrch){
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-searchBarIcon--stylesrch--search)::before{
+  content: url(assets/lupa.png);
+  padding-top: 5px;
+  padding-left: 5px;
 }

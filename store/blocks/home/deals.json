@@ -18,7 +18,8 @@
   },
   "image#deal1": {
     "props": {
-      "src": "assets/entrega.png",
+      "maxHeight":66,
+      "src": "assets/enviobg.png",
       "blockClass":"imagedeals"
     }
   },
@@ -36,7 +37,8 @@
   },
   "image#deal2": {
     "props": {
-      "src": "assets/multiples.png",
+      "maxHeight":66,
+      "src": "assets/multiplesbg.png",
       "blockClass":"imagedeals"
     }
   },
@@ -54,7 +56,8 @@
   },
   "image#deal3": {
     "props": {
-      "src": "assets/promos.png",
+      "maxHeight":66,
+      "src": "assets/promosbg.png",
       "blockClass":"imagedeals"
     }
   },

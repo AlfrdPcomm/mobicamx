@@ -551,7 +551,7 @@
   "children":[
     "image#colection"
   ],"props":{
-    "horizontalAlign":"center",
+    "horizontalAlign":"left",
     "blockClass":"colcolection",
     "verticalAlign": "middle"
   }
@@ -564,10 +564,11 @@
   "children":[
     "flex-layout.row#titinfo",
     "flex-layout.row#txtinfo",
-    "flex-layout.row#titccolection",
-    "flex-layout.row#sldcolection"
+    "flex-layout.row#titccolection"//,
+    //"flex-layout.row#sldcolection"
   ],"props":{
-    "blockClass":"colcolection"
+    "blockClass":"colcolection",
+    "verticalAlign":"middle"
   }
 },"flex-layout.row#titinfo":{
   "children":[
@@ -927,7 +928,7 @@
   "props":{
     "text":"### SUSCRÍBETE A NUESTRA <br> NEWSLETTER Y CONSIGUE <br> 5% DE DESCUENTO",
     "blockClass":"txtnews",
-    "textAlignment": "CENTER"
+    "textAlignment": "LEFT"
   }
 },"flex-layout.col#contentnews":{
   "children":[

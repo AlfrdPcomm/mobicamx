@@ -22,9 +22,46 @@
   },
 
   "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
+    "children": [
+      "flex-layout.col#notbarcol1",
+      "flex-layout.col#notbarcol2",
+      "flex-layout.col#notbarcol3"
+      //"notification.bar#home"
+    ],
     "props": {
-      "fullWidth": "true"
+      "fullWidth": "true",
+      "colSizing":"equal",
+      "blockClass":"notifbarow"
+    }
+  },"flex-layout.col#notbarcol1":{
+
+  },
+  "flex-layout.col#notbarcol2":{
+    "children":[
+      "rich-text#notfbar"
+    ],"props":{
+      "horizontalAlign":"center"
+    }
+  },
+  "rich-text#notfbar":{
+    "props":{
+      "blockClass":"notifbar",
+      "text":"ENTREGA INMEDIATA DE 3-5 DÍAS."
+    }
+  },
+  
+  "flex-layout.col#notbarcol3":{
+    "children":[
+      "rich-text#notifbar-llamar"
+    ],"props":{
+      "horizontalAlign":"right"
+    }
+  },
+
+  "rich-text#notifbar-llamar":{
+    "props":{
+      "text":"[LLÁMANOS: 00 0000 0000](tel:+520000000000)",
+      "blockClass":"notifbar"
     }
   },
   "notification.bar#home": {
@@ -63,8 +100,8 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#localizacion",
       "flex-layout.col#logo-desktop",
+      "flex-layout.col#localizacion",      
       "flex-layout.col#log-srch-minicart"
     ]
   },
@@ -74,8 +111,8 @@
       "flex-layout.row#slm"      
     ]
   },"flex-layout.row#slm":{
-    "children":[
-      "search-bar",
+    "children":[      
+      "rich-text#localizar",
       "login",
       "image#heart",
       "minicart.v2"
@@ -124,7 +161,7 @@
   
   "flex-layout.col#localizacion":{
     "children":[
-      "rich-text#localizar"
+      "search-bar"
     ]
   },"rich-text#localizar":{
     "props":{
@@ -137,7 +174,8 @@
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign":"center"
+      "horizontalAlign":"left",
+      "paddingLeft": 8
     },
     "children": ["logo#desktop"]
   },

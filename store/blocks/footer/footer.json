@@ -63,7 +63,8 @@
     "children":[
       "menu-item#ofertass",
       "menu-item#politicas",
-      "menu-item#terminos"
+      "menu-item#terminos",
+      "flex-layout.row#pymethod"
     ],"props":{
       "blockClass":"colfoo"
     }
@@ -132,18 +133,44 @@
 
   "flex-layout.col#pb":{
     "children":[
-
+      "flex-layout.row#pymethod"
     ],"props":{
       "width":"33%"
     }
   },
 
 
+  "flex-layout.row#pymethod":{
+    "children":[
+      "image#amvo",
+      "image#paypal"
+    ],"props":{
+      "colSizing":"auto",
+      "blockClass":"rowpm",
+      "verticalAlign":"middle",
+      "preserveLayoutOnMobile":true
+    }
+  },
+  "image#amvo":{
+    "props":{
+      "src":"assets/amvo.png"
+    }
+  },
+
+  "image#paypal":{
+    "props":{
+      "maxHeight":19,
+      "src":"assets/paypal.png",
+      "blockClass": "paypalimg"
+    }
+  },
+
 
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#socialmob"
+      "flex-layout.row#socialmob",
+      "flex-layout.row#pymethod"
     ]
   },
   "flex-layout.row#socialmob":{

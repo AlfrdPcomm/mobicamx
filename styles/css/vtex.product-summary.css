@@ -42,8 +42,9 @@
 }
 
 :global(.vtex-product-highlights-2-x-productHighlightText){
-  color:#ffffff;
-  background-color: #8C1A24;
+  padding-top: 3px;
+  color:#E30A1D;
+  background-color: #ffffff;
   border-radius: 6px;
 
 }
