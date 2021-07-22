@@ -126,29 +126,30 @@
       "blockClass": "clecsoli"
     }
   },
+/* ---------- Product size custom app implementation ---------- */
 
   "flex-layout.row#prodmenaccordion":{
-    "children":[
-      "flex-layout.col#prductmenu"     
+  "children":[
+    "flex-layout.col#prductmenu"     
     ],"props":{
       "blockClass":"rowprodmen"
     }
   },
   "flex-layout.col#prductmenu":{
     "children":[
-      "vtex.menu@2.x:menu#menoprodesk"
-    ],"props":{
-      "blockClass":"colprodmenu"
-    }
+      "rich-text#InfoMedidas", "productSize"
+      ],"props":{
+        "blockClass":"colprodmedidas"
+      }
+    
   },
-  "vtex.menu@2.x:menu#menoprodesk":{
-    "children":[
-      //"menu-item#entregaprod",
-      "menu-item#infomedidas"
-    ],"props":{
-      "orientation":"vertical"
-    }
+  "rich-text#InfoMedidas":{
+      "props":{
+        "text":"###### Medidas de información",
+        "blockClass": "medidasInformacion"
+      }      
   },
+/* --------- /Product size custom app implementation ---------- */
 
   "menu-item#entregaprod": {
     "props": {
@@ -177,27 +178,6 @@
     "children": [   
       "flex-layout.row#descripcion"
     ]
-  },
-
-
-  "menu-item#infomedidas": {
-    "props": {
-      "blockClass":"menfoomob",
-      "id": "menu-item-medidas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": true,
-        "tagTitle": "Información de medidas",
-        "text": "Información de medidas"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#infomed"]
-  },
-  "vtex.menu@2.x:submenu.accordion#infomed": {
-    "children": ["vtex.menu@2.x:menu#infomed-accordion"]
   },
 
   "vtex.menu@2.x:menu#infomed-accordion": {
