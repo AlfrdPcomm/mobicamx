@@ -3,6 +3,7 @@
     "children": [
       "stack-layout#prodsum",
       "flex-layout.row#highlight",
+      "product-summary-space",
       "product-summary-name",
       //"flex-layout.col#productRating",
       "product-summary-space",
@@ -171,5 +172,11 @@
     "children":[
       "product-selling-price#summary"
     ]
+  },
+  "product-summary-sku-selector":{
+    "props":{
+      "showVariationsLabels":"none"
+    }
   }
+
 }

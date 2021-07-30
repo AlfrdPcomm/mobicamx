@@ -208,6 +208,7 @@
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel){
   background-color: #ffffff;
+  padding-top: 20px;
 }
 
 :global(.vtex-slider-layout-0-x-sliderTrack--carouselcats){
@@ -728,3 +729,27 @@
   font-size: 30px;
   color: #000000;
 }
+
+/*----------------- Institucionales ----------------------*/
+:global(.vtex-rich-text-0-x-paragraph--tpmachote){
+  font-size: 20px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel4--tcmachote){
+  color: #9bca43;
+  font-size: 16px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel3--tcmachote){
+  font-size: 14px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--tcmachote){
+  font-size: 14px;
+  font-family: 'Century Gothic';
+}
+
+
+
+
+/*----------------- Institucionales ----------------------*/

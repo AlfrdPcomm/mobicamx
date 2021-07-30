@@ -29,8 +29,8 @@
       "flex-layout.row#continsta",
       "flex-layout.row#titnovedades",
       "flex-layout.row#shelfmobnov2",
-      "flex-layout.row#ideas",
-      "flex-layout.row#sldideas",
+      //"flex-layout.row#ideas",
+      //"flex-layout.row#sldideas",
       "flex-layout.row#newsletter",
       "back-to-top-button"
     ]
@@ -150,8 +150,8 @@
       "flex-layout.row#continsta-tab",
       "flex-layout.row#titnovedades",
       "flex-layout.row#shelf",
-      "flex-layout.row#ideas",
-      "flex-layout.row#sldideas",
+      //"flex-layout.row#ideas",
+      //"flex-layout.row#sldideas",
       "flex-layout.row#newsletter",
       "back-to-top-button"
     ]
@@ -206,8 +206,8 @@
       "flex-layout.row#continsta",
       "flex-layout.row#titnovedades",
       "flex-layout.row#shelf",
-      "flex-layout.row#ideas",
-      "flex-layout.row#sldideas",
+      //"flex-layout.row#ideas",
+      //"flex-layout.row#sldideas",
       "flex-layout.row#newsletter",
       "back-to-top-button"
     ]
