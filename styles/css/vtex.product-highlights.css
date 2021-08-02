@@ -11,3 +11,17 @@
   padding: 5px 0px;
   font-size: 12px;
 }
+
+
+:global(.vtex-stack-layout-0-x-stackItem){
+  display: inline-flex;
+}
+
+:global(.vtex-stack-layout-0-x-stackItem)
+  :global(.vtex-product-highlights-2-x-productHighlightText){  
+  background-color: #E30A1D;
+  color: #ffffff;
+  font-size: 12px!important;
+  height: 18px;
+  padding: 1px 5px!important;
+}

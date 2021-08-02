@@ -12,9 +12,14 @@
       //"product-installments#summary",
       "add-to-cart-button"
     ]
-  },"add-to-cart-button":{
+  }, 
+  
+  
+  
+  "add-to-cart-button":{
     "props":{
-      "text": "COMPRAR AHORA"
+      "text": "COMPRAR AHORA",
+      "unavailableText":"NO DISPONIBLE"
     }
   },
 
@@ -27,10 +32,30 @@
 
   "stack-layout#prodsum": {
     "children": [            
-      "product-summary-image#shelf"      
+      "product-summary-image#shelf", 
+      "vtex.product-highlights@2.x:product-highlights#promotion"    
       //"vtex.product-highlights@2.x:product-highlights"  
       //"modal-trigger#quickview" // Check quickview.jsonc
     ]
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#promotion": {
+    "props": {
+      "type": "promotion"
+    },
+    "children": ["product-highlight-wrapper#promotion"]
+  },
+  "product-highlight-wrapper#promotion": {
+    "props": {
+      "blockClass": "promotion"
+    },
+    "children": [
+      "product-highlight-text#promotion"]
+  },
+  "product-highlight-text#promotion": {
+    "props": {
+      "message": "{highlightName}"
+    }
   },
   
   
