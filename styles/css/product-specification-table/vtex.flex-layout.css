@@ -18,3 +18,35 @@
 .flexRow--productSpecification:nth-child(even) {
   background-color: #f9f9f9;
 }
+/*CAMBIOS*/
+:global(.vtex-store-components-3-x-container) {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+:global(.vtex-search-result-3-x-buttonShowMore){
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+:global(.vtex-store-components-3-x-swiperCaret){
+  visibility: hidden;
+}
+:global(.vtex-store-components-3-x-figure){
+  margin-inline-end: auto;
+}
+:global(.vtex-reviews-and-ratings-2-x-container ){
+  max-width: 1300px;
+}
+:global(.vtex-checkbox__container) {
+  padding-top: 5px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+  max-width: 500px;
+  min-width: 230px;
+  height: 30%;
+}
+:global(.vtex-product-summary-2-x-element) {
+  margin-block: 14px;
+} 
+:global(.vtex-product-highlights-2-x-productHighlightText ){
+  font-size: 14px;
+}

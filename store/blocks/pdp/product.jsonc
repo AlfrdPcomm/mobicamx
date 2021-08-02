@@ -127,20 +127,7 @@
     }
   },
 
-  "flex-layout.row#prodmenaccordion":{
-    "children":[
-      "flex-layout.col#prductmenu"     
-    ],"props":{
-      "blockClass":"rowprodmen"
-    }
-  },
-  "flex-layout.col#prductmenu":{
-    "children":[
-      "vtex.menu@2.x:menu#menoprodesk"
-    ],"props":{
-      "blockClass":"colprodmenu"
-    }
-  },
+ 
   "vtex.menu@2.x:menu#menoprodesk":{
     "children":[
       //"menu-item#entregaprod",
@@ -380,7 +367,7 @@
       "product-summary.shelf"
     ],
     "props":{            
-      "recomendation":"simirlars",
+      "recomendation":"viewandBought",
       "productList":{
         "showTitle":false,
         "maxItems":10,
@@ -388,5 +375,30 @@
         "itemsPerPage": 5
       }
     }
+  },
+
+/* ---------- Product size custom app implementation ---------- */
+
+"flex-layout.row#prodmenaccordion":{
+  "children":[
+    "flex-layout.col#prductmenu"     
+    ],"props":{
+      "blockClass":"rowprodmen"
+    }
+  },
+  "flex-layout.col#prductmenu":{
+    "children":[
+      "rich-text#InfoMedidas", "productSize"
+      ],"props":{
+        "blockClass":"colprodmedidas"
+      }
+
+  },
+  "rich-text#InfoMedidas":{
+      "props":{
+        "text":"###### Medidas de información",
+        "blockClass": "medidasInformacion"
+      }      
   }
+/* --------- /Product size custom app implementation ---------- */
 }

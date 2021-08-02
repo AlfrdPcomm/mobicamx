@@ -31,7 +31,7 @@
 
     "rich-text#contenidomachote":{
         "props":{
-            "text":"#### Subtítulo color \n ### Subtítulo negro \n Texto",
+            "text":"#### Subtítulo color \n ### Subtítulo negro \n **Texto**",
             "blockClass":"tcmachote"
         }
     }

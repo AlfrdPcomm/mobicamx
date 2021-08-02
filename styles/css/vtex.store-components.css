@@ -749,7 +749,48 @@
   font-family: 'Century Gothic';
 }
 
+:global(.vtex-product-summary-2-x-containerNormal){
+  padding: 15px;
+}
 
 
 
 /*----------------- Institucionales ----------------------*/
+
+:global(.vtex-search-1-x-biggy-autocomplete)
+  :global(.vtex-search-1-x-tileListItem){
+    padding: 14px;
+  }
+
+/* -------------- Product size CUSTOM-APP -------------- */
+
+/* Header */ 
+:global(.vtex-rich-text-0-x-container--medidasInformacion)
+:global(.vtex-rich-text-0-x-headingLevel6--medidasInformacion) {
+  margin-bottom: 0px;
+  font-family: 'Century Gothic';
+  font-weight: bold;
+  font-size: 16px;
+  color: #060606;
+}
+
+/* Measures */
+:global(.vtex-flex--ProductSize) {
+  font-variant: full-width;
+  display: flex;
+  /* justify-content: space-between; */
+}
+:global(.vtex-store-container--ProductSize-item) {
+  font-family: 'Century Gothic';
+  color: #060606;
+  font-size: 12px;
+  text-transform: capitalize;
+  margin-right: 28px;
+}
+
+/* divider */
+:global(.vtex-flex-layout-0-x-flexCol--colprodmedidas) {
+  border-bottom: 1px solid #DDDDDD;
+}
+
+/* ------------- /Product size CUSTOM-APP -------------- */

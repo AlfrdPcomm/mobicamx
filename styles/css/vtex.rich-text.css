@@ -88,3 +88,10 @@
     line-height: 1.3em;
   }
 }
+/*CAMBIOS*/
+:global(.vtex-product-list-0-x-price){
+  font-weight: bold;
+}
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
+  color: #444444;
+}
