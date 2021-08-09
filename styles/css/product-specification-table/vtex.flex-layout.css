@@ -19,10 +19,6 @@
   background-color: #f9f9f9;
 }
 /*CAMBIOS*/
-:global(.vtex-store-components-3-x-container) {
-  margin-left: 30px;
-  margin-right: 30px;
-}
 :global(.vtex-search-result-3-x-buttonShowMore){
   padding-bottom: 50px;
   padding-top: 30px;
@@ -33,9 +29,7 @@
 :global(.vtex-store-components-3-x-figure){
   margin-inline-end: auto;
 }
-:global(.vtex-reviews-and-ratings-2-x-container ){
-  max-width: 1300px;
-}
+
 :global(.vtex-checkbox__container) {
   padding-top: 5px;
 }

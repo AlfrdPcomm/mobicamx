@@ -262,7 +262,7 @@
   "drawer": {
     "children": ["menu#drawer"],"props":{
       "blockClass":"principal",
-      "isFullWidth":true
+      "fullWidth":true
     }
   },
 

@@ -87,11 +87,7 @@
   overflow-x: hidden;
 }
 /*CAMBIOS*/
- 
-.vtex-store-components-3-x-container {
-  margin-left: 30px;
-  margin-right: 30px;
-}
+
 .flexColChild--quickviewDetails:last-child {
   height: 34% !important;
 }
