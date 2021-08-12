@@ -476,7 +476,7 @@
       "product-summary-name",
       "product-summary-space",
       "flex-layout.row#selling-price-savings",
-      "product-summary-sku-selector",
+      //"product-summary-sku-selector",
       "add-to-cart-button"
     ]
   }

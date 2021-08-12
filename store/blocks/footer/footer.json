@@ -34,7 +34,7 @@
     }
   },"rich-text#footertext":{
     "props":{
-      "text":"Nosotros compartimos y acompañamos a nuestros clientes lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+      "text":"Somos la propuesta más completa de muebles y accesorios del mercado, con productos diseñados y elaborados especialmente para nuestros clientes. Nuestra excelencia innata se refleja con la calidad de materiales del más alto nivel, al igual que en nuestra confiabilidad y solidez. Esto nos permite proporcionar funcionalidad, comodidad y vanguardia. ",
       "blockClass":"txtnosfoo"
     }
   },
@@ -153,14 +153,17 @@
   },
   "image#amvo":{
     "props":{
-      "src":"assets/amvo.png"
+      "height":30,
+      "src":"assets/amvo.svg",
+      "blockClass":"imgamvo"
+
     }
   },
 
   "image#paypal":{
     "props":{
-      "maxHeight":19,
-      "src":"assets/paypal.png",
+      "height":30,
+      "src":"assets/paypal.svg",
       "blockClass": "paypalimg"
     }
   },

@@ -35,8 +35,7 @@
 }
 :global(.vtex-flex-layout-0-x-flexCol--filterCol) {
   max-width: 500px;
-  min-width: 230px;
-  height: 30%;
+  min-width: 300px;
 }
 :global(.vtex-product-summary-2-x-element) {
   margin-block: 14px;

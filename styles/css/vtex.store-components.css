@@ -251,12 +251,15 @@
     margin-bottom: 0%;
 }
 
+
+:global(.vtex-rich-text-0-x-link--subtitcolection),
 :global(.vtex-rich-text-0-x-wrapper--subtitcolection)
   :global(.vtex-rich-text-0-x-heading){
     font-size: 16px;
     border-bottom: 1px solid #000000;
     font-weight: 600;
     margin-bottom: 0;
+    color: #000;
 
 }
 
@@ -353,6 +356,7 @@
   }
 /* ----------------------------Inicio newsletter   ----------------------------------- */
 
+:global(.vtex-shelf-1-x-dot--isActive),
 :global(.vtex-slider-layout-0-x-paginationDot--isActive){
   background-color: #82BC00;
 }
@@ -394,7 +398,11 @@
       }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--rowdealsmob){
-  padding: 25px;
+  padding: 25px 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--coldealsmob){
+  padding: 5px;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--coldealsmob)
@@ -794,3 +802,11 @@
 }
 
 /* ------------- /Product size CUSTOM-APP -------------- */
+
+:global(.vtex-product-quantity-1-x-quantitySelectorStepper--qtyselector){
+  padding-top: 25px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--margen){
+  padding: 0px 15px;
+}

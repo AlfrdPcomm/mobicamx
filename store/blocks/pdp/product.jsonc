@@ -4,9 +4,25 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#otrosclientes",
-      "shelf.relatedProducts",
-      "product-reviews"
+      "flex-layout.row#relatedprod",
+      "flex-layout.row#revs"
     ]
+  },
+
+  "flex-layout.row#revs":{
+    "children":[
+      "product-reviews"
+    ],"props":{
+      "marginTop":7,
+      "blockClass":["margen"]
+    }
+  },
+  "flex-layout.row#relatedprod":{
+    "children":[
+      "shelf.relatedProducts"
+    ],"props":{
+      "blockClass":"margen"
+    }
   },
   "flex-layout.row#specifications-title": {
     "children": [
@@ -20,7 +36,8 @@
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
-      "marginTop": 4
+      "marginTop": 4,
+      "blockClass":"margen"
     },
     "children": ["breadcrumb"]
   },
@@ -31,7 +48,8 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass":"margen"
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
@@ -226,7 +244,8 @@
 
   "product-quantity":{
     "props":{
-      "showLabel":false
+      "showLabel":false,
+      "blockClass":"qtyselector"
     }
   },
 
@@ -352,7 +371,7 @@
     "children":[
       "rich-text#titshelfprod"
     ],"props":{
-      "blockClass":"rowotroscli"
+      "blockClass":["rowotroscli","margen"]
     }
   },
   "rich-text#titshelfprod":{

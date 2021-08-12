@@ -367,6 +367,7 @@
       "blockClass":"menfoomob",
       "itemProps": {
         "tagTitle": "Ofertas",
+        "href":"/Ofertas",
         "text": "Ofertas"
       }
     },

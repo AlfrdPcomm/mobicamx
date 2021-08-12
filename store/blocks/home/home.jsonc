@@ -9,11 +9,6 @@
   },
   
   
-  
-  
-  
-  
-  
   /* -------------------------------- Inicio Phone ----------------------------------*/
   "responsive-layout.phone":{
     "children":[
@@ -331,7 +326,7 @@
  },
  "tab-content.item#items1": {
    "children": [
-     "flex-layout.row#sldcats"
+     "flex-layout.row#sldcats1"
    ],
    "props": {
      "tabId": "selector1"
@@ -340,7 +335,7 @@
 
 
 /* ----------------- Inicio Contenido Selector 1 ---------------------------------- */
-"flex-layout.row#sldcats":{
+"flex-layout.row#sldcats1":{
   "children":[
     "slider-layout#contselect1"
   ],"props":{
@@ -459,7 +454,7 @@
   }
 },"rich-text#titcom1":{
   "props":{
-    "text": "COMEDOR",
+    "text": "ACCESORIOS",
     "blockClass":"titsldcats"
   }
 },"image#com1":{
@@ -480,7 +475,7 @@
 
  "tab-content.item#items2": {
    "children": [
-    "flex-layout.row#sldcats"
+    "flex-layout.row#sldcats2"
    ],
    "props": {
      "tabId": "selector2"
@@ -491,26 +486,149 @@
  /* ----------------- Inicio Contenido Selector 2 ---------------------------------- */
 
 
+ "flex-layout.row#sldcats2":{
+  "children":[
+    "slider-layout#contselect2"
+  ],"props":{
+    "fullWidth":true,
+    "blockClass":"contslider"
+  }
+},
+
 "slider-layout#contselect2": {
   "props": {
     "itemsPerPage": {
       "desktop": 4,
-      "tablet": 2,
+      "tablet": 2 ,
       "phone": 1
     },
     "infinite": true,
     "showNavigationArrows": "desktopOnly",
-    "blockClass": "carousel"
+    "blockClass": "carouselcats"
   },
-  "children": []
+  "children": [
+    "flex-layout.row#salas2", 
+    "flex-layout.row#camas2",
+    "flex-layout.row#comedor2",
+    "flex-layout.row#comedor21"
+  ]
 },
+
+"flex-layout.row#salas2":{
+  "children":[
+    "flex-layout.col#salas2"
+  ],"props":{
+    "horizontalAlign":"center"
+  }
+},
+"flex-layout.col#salas2":{
+  "children":[
+    "rich-text#titsalas2",
+    "image#salas2"
+  ],"props":{    
+    "horizontalAlign": "center"
+  }
+},"rich-text#titsalas2":{
+  "props":{
+    "height":126,
+    "text": "COMEDOR",
+    "blockClass":"titsldcats"
+  }
+},"image#salas2":{
+  "props":{
+    "src":"assets/salas.png",
+    "link": "/",
+    "blockClass":"imagenslidcats"
+  }
+},
+"flex-layout.row#camas2":{
+  "children":[
+    "flex-layout.col#camas2"
+  ]
+},
+"flex-layout.col#camas2":{
+  "children":[
+    "rich-text#titcamas2",
+    "image#camas2"
+  ],"props":{    
+    "horizontalAlign": "center"
+  }
+},"rich-text#titcamas2":{
+  "props":{
+    "text": "SALA",
+    "blockClass":"titsldcats"
+  }
+},"image#camas2":{
+  "props":{
+    "height":126,
+    "src":"assets/camas.png",
+    "link": "/",
+    "blockClass":"imagenslidcats"
+  }
+},"flex-layout.row#comedor2":{
+  "children":[
+    "flex-layout.col#comedor"
+  ]
+},
+"flex-layout.col#comedor2":{
+  "children":[
+    "rich-text#titcom2",
+    "image#com2"
+  ],"props":{    
+    "horizontalAlign": "center"
+  }
+},"rich-text#titcom2":{
+  "props":{
+    "text": "OFICINA",
+    "blockClass":"titsldcats"
+  }
+},"image#com2":{
+  "props":{
+    "height":126,
+    "src":"assets/comedor.png",
+    "link": "/",
+    "blockClass":"imagenslidcats"
+  }
+},
+
+"flex-layout.row#comedor21":{
+  "children":[
+    "flex-layout.col#comedor21"
+  ]
+},
+"flex-layout.col#comedor21":{
+  "children":[
+    "rich-text#titcom21",
+    "image#com21"
+  ],"props":{    
+    "horizontalAlign": "center"
+  }
+},"rich-text#titcom21":{
+  "props":{
+    "text": "RECÁMARA",
+    "blockClass":"titsldcats"
+  }
+},"image#com21":{
+  "props":{
+    "height":126,
+    "src":"assets/comedor.png",
+    "link": "/",
+    "blockClass":"imagenslidcats"
+  }
+},
+
+
+
+
+
+
 
 /* ----------------- Fin Contenido Selector 2 ---------------------------------- */
 
 
  "tab-content.item#items3": {
   "children": [
-    "flex-layout.row#sldcats"
+    "flex-layout.row#sldcats3"
   ],
   "props": {
     "tabId": "selector3"
@@ -520,19 +638,140 @@
 /* ----------------- Inicio Contenido Selector 3 ---------------------------------- */
 
 
+
+
+
+"flex-layout.row#sldcats3":{
+  "children":[
+    "slider-layout#contselect3"
+  ],"props":{
+    "fullWidth":true,
+    "blockClass":"contslider"
+  }
+},
+
 "slider-layout#contselect3": {
   "props": {
     "itemsPerPage": {
       "desktop": 4,
-      "tablet": 2,
+      "tablet": 2 ,
       "phone": 1
     },
     "infinite": true,
     "showNavigationArrows": "desktopOnly",
-    "blockClass": "carousel"
+    "blockClass": "carouselcats"
   },
-  "children": []
+  "children": [
+    "flex-layout.row#salas3", 
+    "flex-layout.row#camas3",
+    "flex-layout.row#comedor3",
+    "flex-layout.row#comedor31"
+  ]
 },
+
+"flex-layout.row#salas3":{
+  "children":[
+    "flex-layout.col#salas3"
+  ],"props":{
+    "horizontalAlign":"center"
+  }
+},
+"flex-layout.col#salas3":{
+  "children":[
+    "rich-text#titsalas3",
+    "image#salas3"
+  ],"props":{    
+    "horizontalAlign": "center"
+  }
+},"rich-text#titsalas3":{
+  "props":{
+    "height":126,
+    "text": "MODERNO",
+    "blockClass":"titsldcats"
+  }
+},"image#salas3":{
+  "props":{
+    "src":"assets/salas.png",
+    "link": "/",
+    "blockClass":"imagenslidcats"
+  }
+},
+"flex-layout.row#camas3":{
+  "children":[
+    "flex-layout.col#camas3"
+  ]
+},
+"flex-layout.col#camas3":{
+  "children":[
+    "rich-text#titcamas3",
+    "image#camas3"
+  ],"props":{    
+    "horizontalAlign": "center"
+  }
+},"rich-text#titcamas3":{
+  "props":{
+    "text": "CLÁSICO",
+    "blockClass":"titsldcats"
+  }
+},"image#camas3":{
+  "props":{
+    "height":126,
+    "src":"assets/camas.png",
+    "link": "/",
+    "blockClass":"imagenslidcats"
+  }
+},"flex-layout.row#comedor3":{
+  "children":[
+    "flex-layout.col#comedor3"
+  ]
+},
+"flex-layout.col#comedor3":{
+  "children":[
+    "rich-text#titcom3",
+    "image#com3"
+  ],"props":{    
+    "horizontalAlign": "center"
+  }
+},"rich-text#titcom3":{
+  "props":{
+    "text": "CONTEMPORÁNEO",
+    "blockClass":"titsldcats"
+  }
+},"image#com3":{
+  "props":{
+    "height":126,
+    "src":"assets/comedor.png",
+    "link": "/",
+    "blockClass":"imagenslidcats"
+  }
+},
+
+"flex-layout.row#comedor31":{
+  "children":[
+    "flex-layout.col#comedor31"
+  ]
+},
+"flex-layout.col#comedor31":{
+  "children":[
+    "rich-text#titcom31",
+    "image#com31"
+  ],"props":{    
+    "horizontalAlign": "center"
+  }
+},"rich-text#titcom31":{
+  "props":{
+    "text": "TRADICIONAL",
+    "blockClass":"titsldcats"
+  }
+},"image#com31":{
+  "props":{
+    "height":126,
+    "src":"assets/comedor.png",
+    "link": "/",
+    "blockClass":"imagenslidcats"
+  }
+},
+
 
 /* ----------------- Fin Contenido Selector 3 ---------------------------------- */
 
@@ -599,7 +838,7 @@
 },
 "rich-text#titccol":{
   "props":{
-    "text":"#### COMPRAR LA COLECCIÓN",
+    "text":"[COMPRAR LA COLECCIÓN]()",
     "blockClass":"subtitcolection"
   }
 },"flex-layout.row#sldcolection":{
@@ -735,13 +974,15 @@
       "phone": 1
     },
     "infinite": true,
-    "showNavigationArrows": "desktopOnly",
+    "showNavigationArrows": "never",
     "blockClass": "sldinsta"
   },
   "children": [
     "flex-layout.col#insta1", 
     "flex-layout.col#insta2",
-    "flex-layout.col#insta3"
+    "flex-layout.col#insta3",
+    "flex-layout.col#insta4",
+    "flex-layout.col#insta5"
   ]
 },
 
@@ -753,7 +994,7 @@
 },"image#insta1":{
   "props":{
     "height": 302,
-    "src":"assets/insta1.png"
+    "src":"assets/ig/IG1.png"
   }
 },
 "rich-text#txtinsta1":{
@@ -770,7 +1011,7 @@
 },"image#insta2":{
   "props":{
     "height": 302,
-    "src":"assets/insta2.png"
+    "src":"assets/ig/ig2.png"
   }
 },
 "rich-text#txtinsta2":{
@@ -787,10 +1028,46 @@
 },"image#insta3":{
   "props":{
     "height": 302,
-    "src":"assets/insta3.png"
+    "src":"assets/ig/IG3.png"
   }
 },
 "rich-text#txtinsta3":{
+  "props":{
+    "text":"[@KAREN_PL](https://instagram.com/karen_pl)",
+    "blockClass":"textlinkig"
+  }
+},
+
+"flex-layout.col#insta4":{
+  "children":[
+    "image#insta4",
+    "rich-text#txtinsta4"
+  ]  
+},"image#insta4":{
+  "props":{
+    "height": 302,
+    "src":"assets/ig/IG4.png"
+  }
+},
+"rich-text#txtinsta4":{
+  "props":{
+    "text":"[@KAREN_PL](https://instagram.com/karen_pl)",
+    "blockClass":"textlinkig"
+  }
+},
+
+"flex-layout.col#insta5":{
+  "children":[
+    "image#insta5",
+    "rich-text#txtinsta5"
+  ]  
+},"image#insta5":{
+  "props":{
+    "height": 302,
+    "src":"assets/ig/ig5.png"
+  }
+},
+"rich-text#txtinsta5":{
   "props":{
     "text":"[@KAREN_PL](https://instagram.com/karen_pl)",
     "blockClass":"textlinkig"
