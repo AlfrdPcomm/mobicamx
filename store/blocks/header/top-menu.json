@@ -828,7 +828,10 @@
   "flex-layout.col#contentelectrodesk":{
     "children":[
       "flex-layout.col#electrodesk"
-    ]
+    ],"props":{
+      "width":"70%",
+      "paddingLeft": 10
+    }
   },"flex-layout.col#electrodesk":{
     "children":[
       "menu-item#electrodesktit1",
@@ -875,7 +878,8 @@
     "children":[
       "image#electronicos"
     ],"props":{
-      "verticalAlign":"middle"
+      "verticalAlign":"middle",
+      "width":"30%"
     }
   },"image#electronicos":{
     "props":{
@@ -935,7 +939,10 @@
   "flex-layout.col#contenthooffdesk":{
     "children":[
       "flex-layout.col#ooffdesk"
-    ]
+    ],"props":{
+      "width":"70%",
+      "paddingLeft": 10
+    }
   },"flex-layout.col#ooffdesk":{
     "children":[
       "menu-item#ooffdesktit1",
@@ -976,7 +983,8 @@
     "children":[
       "image#hooffdesk"
     ],"props":{
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "width":"30%"
     }
   },
   "image#hooffdesk":{

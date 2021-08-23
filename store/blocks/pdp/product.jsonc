@@ -99,6 +99,7 @@
       "rowGap": 0
     },
     "children": [
+      "vtex.product-highlights@2.x:product-highlights#promotion", 
       "flex-layout.row#product-name",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
@@ -383,18 +384,23 @@
 
   "shelf.relatedProducts":{
     "blocks":[
-      "product-summary.shelf"
+      "product-summary.shelf"     
     ],
     "props":{            
-      "recomendation":"viewandBought",
+      "recommendation":"recommendation",
       "productList":{
         "showTitle":false,
         "maxItems":10,
         "arrows":false,
-        "itemsPerPage": 5
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 1
+        }
       }
     }
   },
+
 
 /* ---------- Product size custom app implementation ---------- */
 

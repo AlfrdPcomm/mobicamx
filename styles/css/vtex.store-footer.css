@@ -34,7 +34,7 @@
 
 :global(.vtex-rich-text-0-x-wrapper--txtnosfoo)
   :global(.vtex-rich-text-0-x-paragraph){
-    text-align: justify;
+    text-align: left;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--titfoo2){

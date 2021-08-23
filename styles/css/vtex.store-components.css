@@ -303,8 +303,8 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--rowfullnews){
   background-color:  #E6E6E8;
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 :global(.vtex-rich-text-0-x-heading--txtnews){
   color: #000000;
@@ -352,7 +352,7 @@
   }
 
   :global(.vtex-store-newsletter-1-x-defaultSuccessMessage){
-    text-align: center;
+    text-align: left;
   }
 /* ----------------------------Inicio newsletter   ----------------------------------- */
 
@@ -426,15 +426,14 @@
   }
 
   :global(.vtex-store-components-3-x-imageElement--imagenslidcats){
-    height: 100px;
+    height: 100%;
   }
   
   :global(.vtex-flex-layout-0-x-flexColChild--colcolection){
     padding: 0%;
   }
   
-  :global(.vtex-rich-text-0-x-heading--titprincolection),
-  :global(.vtex-rich-text-0-x-headingLevel2--titnovedades),
+
   :global(.vtex-rich-text-0-x-heading-level-2){
     font-size: 24px !important;
     padding-top: 25px;
@@ -770,6 +769,10 @@
     padding: 14px;
   }
 
+:global(.vtex-search-1-x-biggy-autocomplete){
+  padding-top: 0%;
+}
+
 /* -------------- Product size CUSTOM-APP -------------- */
 
 /* Header */ 
@@ -809,4 +812,21 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--margen){
   padding: 0px 15px;
+}
+
+:global(.vtex-product-highlights-2-x-productHighlightText--collection){
+  color: #353734;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--instashoptit)
+  :global(.vtex-rich-text-0-x-headingLevel2),
+:global(.vtex-rich-text-0-x-headingLevel2--titnovedades),
+:global(.vtex-rich-text-0-x-headingLevel2--titprincolection){
+  color: #000;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper--subcontainer--isOpen){
+  height: 380px;
 }

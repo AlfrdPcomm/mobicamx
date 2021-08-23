@@ -87,13 +87,18 @@
     "props": {
       "showNavigationArrows":"never",      
       "itemsPerPage": {
-        "desktop": 6,
+        "desktop": 4,
         "tablet": 3,
         "phone": 2
       },
       "infinite": true,
       "fullWidth": true,
-      "blockClass": "shelf" 
+      "blockClass": "shelf",
+      "autoplay":{
+        "timeout":4000,
+        "stopOnHover":true
+      }
+      
     }
   },
 
@@ -114,13 +119,17 @@
     "props": {
       "showNavigationArrows":"never",      
       "itemsPerPage": {
-        "desktop": 6,
+        "desktop": 4,
         "tablet": 3,
         "phone": 2
       },
       "infinite": true,
       "fullWidth": true,
-      "blockClass": "shelf" 
+      "blockClass": "shelf",
+      "autoplay":{
+        "timeout":4000,
+        "stopOnHover":true
+      }
     }
   },
 
@@ -267,7 +276,7 @@
     "props": {
       "showNavigationArrows":"never",      
       "itemsPerPage": {
-        "desktop": 6,
+        "desktop": 4,
         "tablet": 3,
         "phone": 2
       },
@@ -505,6 +514,7 @@
     "infinite": true,
     "showNavigationArrows": "desktopOnly",
     "blockClass": "carouselcats"
+    
   },
   "children": [
     "flex-layout.row#salas2", 
@@ -915,7 +925,8 @@
 },
 "rich-text#titinsta":{
   "props":{
-    "text":"## INSTA SHOPPING"
+    "text":"## INSTA SHOPPING",
+    "blockClass":"instashoptit"
   }
 },
 "flex-layout.row#continsta":{

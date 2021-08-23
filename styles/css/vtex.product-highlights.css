@@ -18,11 +18,17 @@
       display: inline-flex;
 }
 
+
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--promotion)
+  :global(.vtex-product-highlights-2-x-productHighlightText),
 :global(.vtex-stack-layout-0-x-stackItem)
   :global(.vtex-product-highlights-2-x-productHighlightText){  
   background-color: #E30A1D;
   color: #ffffff;
-  font-size: 12px!important;
+  font-size: 14px!important;
   height: 18px;
   padding: 1px 5px!important;
+  margin-left: 3px;
 }
+
+

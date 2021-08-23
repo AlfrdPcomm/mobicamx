@@ -100,7 +100,8 @@
 
   "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
-      "type": "collection"
+      "type": "collection",
+      "blockClass":"collectionsumm"
     },
     "children": ["product-highlight-wrapper"]
   },
@@ -109,11 +110,12 @@
       "blockClass": "collection"
     },
     "children": [
-      "product-highlight-text"]
+      "product-highlight-text#collection"]
   },
-  "product-highlight-text": {
+  "product-highlight-text#collection": {
     "props": {
-      "message": "{highlightName}"
+      "message": "{highlightName}",
+      "blockClass":"collection"
     }
   },
 

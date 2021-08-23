@@ -81,7 +81,7 @@
 :global(.vtex-product-price-1-x-currencyContainer){
   color: #E30A1D;
   font-size: 18px;  
-  font-family: 'Novecento-Bold';
+  font-family: 'Novecento-Normal';
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--rowprecprod)
