@@ -12,6 +12,7 @@
   font-size: 12px;
 }
 
+:global(.vtex-flex-layout-0-x-flexColChild--colconthlp),
 :global(.vtex-product-summary-2-x-element)
   :global(.vtex-stack-layout-0-x-stackContainer)
     :global(.vtex-stack-layout-0-x-stackItem){

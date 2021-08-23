@@ -99,7 +99,7 @@
       "rowGap": 0
     },
     "children": [
-      "vtex.product-highlights@2.x:product-highlights#promotion", 
+      "flex-layout.row#highlightpord",      
       "flex-layout.row#product-name",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
@@ -119,6 +119,19 @@
       //"shipping-simulator",
       //"share#default"
     ]
+  },
+  "flex-layout.row#highlightpord":{
+    "children":[
+      "flex-layout.col#conthp"
+    ],"props":{
+      "blockClass":"rowhlp"
+    }
+  },"flex-layout.col#conthp":{
+    "children":[
+      "vtex.product-highlights@2.x:product-highlights#promotion" 
+    ],"props":{
+      "blockClass":"colconthlp"
+    }
   },
   "flex-layout.row#textsala":{
     "children":[
