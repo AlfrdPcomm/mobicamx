@@ -388,12 +388,12 @@
   }
 },"rich-text#titsalas":{
   "props":{
-    "height":126,
     "text": "SALAS",
     "blockClass":"titsldcats"
   }
 },"image#salas":{
   "props":{
+    "maxHeight":"126px",
     "src":"assets/salas.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -418,7 +418,7 @@
   }
 },"image#camas":{
   "props":{
-    "height":126,
+    "maxHeight":"126px",
     "src":"assets/camas.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -442,7 +442,7 @@
   }
 },"image#com":{
   "props":{
-    "height":126,
+    "maxHeight":"126px",
     "src":"assets/comedor.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -468,7 +468,7 @@
   }
 },"image#com1":{
   "props":{
-    "height":126,
+    "maxHeight":"126px",
     "src":"assets/comedor.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -546,6 +546,7 @@
   }
 },"image#salas2":{
   "props":{
+    "maxHeight":"126px",
     "src":"assets/salas.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -570,7 +571,7 @@
   }
 },"image#camas2":{
   "props":{
-    "height":126,
+    "maxHeight":"126px",
     "src":"assets/camas.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -594,7 +595,7 @@
   }
 },"image#com2":{
   "props":{
-    "height":126,
+    "maxHeight":"126px",
     "src":"assets/comedor.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -620,7 +621,7 @@
   }
 },"image#com21":{
   "props":{
-    "height":126,
+    "maxHeight":"126px",
     "src":"assets/comedor.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -701,6 +702,7 @@
   }
 },"image#salas3":{
   "props":{
+    "maxHeight":"126px",
     "src":"assets/salas.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -725,7 +727,7 @@
   }
 },"image#camas3":{
   "props":{
-    "height":126,
+    "maxHeight":"126px",
     "src":"assets/camas.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -749,7 +751,7 @@
   }
 },"image#com3":{
   "props":{
-    "height":126,
+    "maxHeight":"126px",
     "src":"assets/comedor.png",
     "link": "/",
     "blockClass":"imagenslidcats"
@@ -775,7 +777,7 @@
   }
 },"image#com31":{
   "props":{
-    "height":126,
+    "maxHeight":"126px",
     "src":"assets/comedor.png",
     "link": "/",
     "blockClass":"imagenslidcats"

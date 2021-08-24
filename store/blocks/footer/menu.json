@@ -531,6 +531,22 @@
         "text": "Términos y condiciones"
       }
     }
+  },
+  "menu-item#polipriv": {
+    "props": {
+      "blockClass":"titfoo2",
+      "id": "menu-item-politicas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-privacidad",
+        "noFollow": true,
+        "tagTitle": "Políticas de privacidad",
+        "text": "Políticas de privacidad"
+      }
+    }
   }
   
 }

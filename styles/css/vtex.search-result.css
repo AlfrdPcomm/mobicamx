@@ -43,6 +43,7 @@
   position: relative;
   bottom: 9px;
   left: 27px;
+  margin-right: 27px;
 }
 
 :global(.vtex-search-result-3-x-filterPopupTitle){

@@ -64,6 +64,7 @@
       "menu-item#ofertass",
       "menu-item#politicas",
       "menu-item#terminos",
+      "menu-item#polipriv",
       "flex-layout.row#pymethod"
     ],"props":{
       "blockClass":"colfoo"

@@ -362,6 +362,7 @@
   },
   "image#mueblesdesk":{
     "props":{
+      "maxHeight":"350px",
       "src": "assets/sofa.jpg"
     }
   },  
@@ -772,6 +773,7 @@
     ]
   },"image#accesoriosmen":{
     "props":{
+      "maxHeight":"350px",
       "src":"assets/sofa.jpg"
     }
   },
@@ -883,6 +885,7 @@
     }
   },"image#electronicos":{
     "props":{
+      "maxHeight":"350px",
       "src":"assets/sofa.jpg"
     }
   },
@@ -989,6 +992,7 @@
   },
   "image#hooffdesk":{
     "props":{
+      "maxHeight":"350px",
       "src":"assets/sofa.jpg"
     }
   },
