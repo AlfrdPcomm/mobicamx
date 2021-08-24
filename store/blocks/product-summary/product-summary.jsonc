@@ -127,7 +127,7 @@
   "flex-layout.row#selling-price-savings": {
     "props": {
       "colGap": 2,
-      "preserveLayoutOnMobile": true,
+      "preserveLayoutOnMobile": false,
       "marginBottom": 4,
       "colSizing":"equal",
       "fullWidth":true
