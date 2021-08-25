@@ -223,7 +223,8 @@
       "menu-item#estilomob",
       "menu-item#ofertasmob",
       "menu-item#politicasmob",
-      "menu-item#terminosmob"
+      "menu-item#terminosmob",
+      "menu-item#poldev"
     ]
   },
 
@@ -382,6 +383,7 @@
       "orientation": "vertical"
     },
     "children": [ 
+      "menu-item#ofertass"
     ]
   },
 
@@ -391,7 +393,7 @@
       "blockClass":"menfoomob",
       "itemProps": {
         "tagTitle": "Políticas de privacidad",
-        "text": "Políticas ade privacidad"
+        "text": "Políticas de privacidad"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#politiciasmob"]
@@ -405,8 +407,35 @@
       "orientation": "vertical"
     },
     "children": [ 
+      "menu-item#polipriv"
     ]
   },
+
+
+  "menu-item#poldev": {
+    "props": {
+      "blockClass":"menfoomob",
+      "itemProps": {
+        "tagTitle": "Políticas de devolución",
+        "text": "Políticas de devolución"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#poldev"]
+  },
+  "vtex.menu@2.x:submenu.accordion#poldev": {
+    "children": ["vtex.menu@2.x:menu#poldev"]
+  },
+
+  "vtex.menu@2.x:menu#poldev": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [ 
+      "menu-item#politicas"
+    ]
+  },
+
+
 
   "menu-item#terminosmob": {
     "props": {
@@ -427,6 +456,7 @@
       "orientation": "vertical"
     },
     "children": [ 
+      "menu-item#terminos"
     ]
   },
 

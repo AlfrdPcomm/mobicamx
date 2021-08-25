@@ -354,6 +354,12 @@
   :global(.vtex-store-newsletter-1-x-defaultSuccessMessage){
     text-align: left;
   }
+
+  @media (max-width: 639px){
+    :global(.vtex-store-newsletter-1-x-defaultSuccessMessage){
+      padding-left: 4%;
+    }
+  }
 /* ----------------------------Inicio newsletter   ----------------------------------- */
 
 :global(.vtex-shelf-1-x-dot--isActive),
