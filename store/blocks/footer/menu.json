@@ -367,9 +367,9 @@
     "props": {
       "blockClass":"menfoomob",
       "itemProps": {
-        "tagTitle": "Ofertas",
-        "href":"/Ofertas",
-        "text": "Ofertas"
+        "tagTitle": "Novedades",
+        "href":"/760?map=productClusterIds",
+        "text": "Novedades"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#ofertasmob"]

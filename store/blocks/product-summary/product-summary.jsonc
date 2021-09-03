@@ -74,23 +74,24 @@
       "maxHeight": 300
     }
   },
+  //-------------------------------- Collection
 
-  /*"vtex.product-highlights@2.x:product-highlights#collection": {
+  "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
       "type": "collection",
       "filter": {
         "type": "show",
-        "highlightNames": ["Temporada","Prueba1","Prueba2"]
+        "highlightNames": ["ENTREGA INMEDIATA"]
       }
     },
-    "children": ["product-highlight-text"]
+    "children": ["product-highlight-text#collection"]
   },
-  "product-highlight-text": {
+  "product-highlight-text#collection": {
     "props": {
       "message": "{highlightName}",
       "blockClass": "highcollection"
     }
-  },*/
+  },
 
 
 
@@ -98,7 +99,7 @@
 
 
 
-  "vtex.product-highlights@2.x:product-highlights#collection": {
+/*"vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
       "type": "collection",
       "blockClass":"collectionsumm"
@@ -117,7 +118,7 @@
       "message": "{highlightName}",
       "blockClass":"collection"
     }
-  },
+  },*/
 
   "product-list-price#summary": {
     "props": {

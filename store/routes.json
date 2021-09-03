@@ -16,5 +16,8 @@
   },
   "store.storelocator":{
     "path":"/stores"
+  },
+  "store.custom#contacto":{
+    "path":"/contacto"
   }
 }

@@ -921,8 +921,8 @@
   "children":[
     "rich-text#titinsta"
   ],"props":{
-    "fullWidth":false,
-    "blockClass":"instatitprin"
+    "fullWidth":true,
+    "blockClass":["instatitprin","margenig"]
   }
 },
 "rich-text#titinsta":{
@@ -936,8 +936,8 @@
     "flex-layout.col#contxt",
     "flex-layout.col#sldinsta"
   ],"props":{
-    "fullWidth":false,
-    "blockClass":"rowinsta"
+    "fullWidth":true,
+    "blockClass":["rowinsta","margenig"]
   }
 },"flex-layout.col#contxt":{
   "children":[
@@ -1203,14 +1203,14 @@
   ],"props":{
     "fullWidth":true,
     "horizontalAlign":"center",
-    "blockClass":"rowfullnews"
+    "blockClass":["rowfullnews","margenig"]
   }
 },
 "flex-layout.col#textnews":{
   "children":[
     "rich-text#txtnews"
   ],"props":{
-    "horizontalAlign":"center",
+    "horizontalAlign":"left",
     "verticalAlign":"middle",
     "width":"40%"
   }

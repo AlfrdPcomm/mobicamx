@@ -14,9 +14,10 @@
       "flex-layout.col#footermenu2"
     ],
     "props": {
-      "blockClass": "menu-row",
+      "blockClass": ["menu-row","margenig"],
       "paddingTop": 6,
-      "paddingBottom": 3
+      "paddingBottom": 3,
+      "fullWidth":true
     }
   },
   "flex-layout.col#footernosotors":{
@@ -44,21 +45,42 @@
       "flex-layout.row#rowmen1",
       "flex-layout.row#rowmen2"
     ],"props":{
-      "blockClass":"colfoo"
+      "blockClass":["colfoo","margenfoo"]
     }
   },"flex-layout.row#rowmen1":{
     "children":[      
       "vtex.menu@2.x:menu#ayuda",
+      "flex-layout.col#men12"
+      
+    ],"props":{
+      "blockClass":"rowsmen"
+    }
+  },
+  "flex-layout.col#men12":{
+    "children":[
       "vtex.menu@2.x:menu#comprar"
-    ]
-  },"flex-layout.row#rowmen2":{
+    ],"props":{
+      "paddingLeft": 8
+    }
+  },
+  
+
+  "flex-layout.row#rowmen2":{
     "children":[      
       "vtex.menu@2.x:menu#servicios",
-      "vtex.menu@2.x:menu#estilo"
+      "flex-layout.col#men22"
+      
     ],"props":{
       "blockClass":"rowmen2"
     }
+  },"flex-layout.col#men22":{
+    "children":[
+      "vtex.menu@2.x:menu#estilo"
+    ],"props":{
+      "paddingLeft": 8
+    }
   },
+  
   "flex-layout.col#footermenu2":{
     "children":[
       "menu-item#ofertass",
@@ -67,7 +89,7 @@
       "menu-item#polipriv",
       "flex-layout.row#pymethod"
     ],"props":{
-      "blockClass":"colfoo"
+      "blockClass":["colfoo","margenfoo"]
     }
   },
   

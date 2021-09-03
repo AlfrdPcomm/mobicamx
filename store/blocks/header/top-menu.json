@@ -84,8 +84,8 @@
   "menu-item#itemtit1":{
     "props":{
       "type":"category",
-      "categoryId": 348,
-      "text":"Muebles",
+      "categoryId": 343,
+      "text":"SALA",
       "blockClass":"titcat"
 
     }
@@ -144,7 +144,7 @@
     "props":{
       "type":"category",
       "categoryId": 366,
-      "text":"Mesas Laterales y Auxiliares",
+      "text":"Mesas Laterales",
       "blockClass":"catprinmen"
     }
   },"menu-item#itemue9":{
@@ -1045,10 +1045,10 @@
       "highlight": false,
       "itemProps": {
         "type":"internal",
-        "href":"/Ofertas",
+        "href":"/760?map=productClusterIds",
         "noFollow": false,
-        "tagTitle": "OFERTAS",
-        "text": "OFERTAS"
+        "tagTitle": "NOVEDADES",
+        "text": "NOVEDADES"
       }
     }
   },
@@ -1063,9 +1063,9 @@
       "itemProps": {
         "noFollow": false,
         "type":"internal",
-        "href":"/Entrega-rapida",
-        "tagTitle": "ENTREGA RÁPIDA",
-        "text": "ENTREGA RÁPIDA"
+        "href":"/787?map=productClusterIds",
+        "tagTitle": "ENTREGA INMEDIATA",
+        "text": "ENTREGA INMEDIATA"
       }
     }
   },

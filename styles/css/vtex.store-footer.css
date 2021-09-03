@@ -47,7 +47,10 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--colfoo){
-  padding: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 0%;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--rowpowered){
@@ -104,4 +107,8 @@
   }
   
 
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--margenfoo){
+  padding-left: 25%;
 }

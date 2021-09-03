@@ -129,17 +129,19 @@
   justify-content: left;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--instatitprin),
-:global(.vtex-flex-layout-0-x-flexRowContent--rowinsta){
-  padding-left: 3%;
-  padding-right: 3%;
-}
+
 
 
 :global(.vtex-flex-layout-0-x-flexRowContent--rowColection){
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 50px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--margenig){
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--rowshelf),
@@ -233,7 +235,10 @@
 /* ---------------------------- Apartado coleccion ----------------------------------- */
 
 :global(.vtex-flex-layout-0-x-flexColChild--colcolection){
-  padding: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 0%;
 }
 
 :global(.vtex-rich-text-0-x-wrapper--titprincolection)
@@ -724,7 +729,10 @@
   justify-content: flex-end;
 }
 
-:global(.vtex-reviews-and-ratings-2-x-loginLink),
+:global(.vtex-reviews-and-ratings-2-x-loginLink){
+  color:#3f3f40;
+  text-decoration: underline;
+}
 :global(.vtex-rich-text-0-x-link--txtubicaciones),
 :global(.vtex-reviews-and-ratings-2-x-star--empty){
   color: #000;
@@ -772,7 +780,7 @@
 
 :global(.vtex-search-1-x-biggy-autocomplete)
   :global(.vtex-search-1-x-tileListItem){
-    padding: 14px;
+    padding: 0px;
   }
 
 :global(.vtex-search-1-x-biggy-autocomplete){
@@ -835,4 +843,20 @@
 
 :global(.vtex-menu-2-x-submenuWrapper--subcontainer--isOpen){
   height: 380px;
+}
+
+:global(.vtex-store-components-3-x-specificationsTableContainer){
+  padding-left: 0%;
+}
+
+:global(.vtex-store-components-3-x-specificationsTitle),
+:global(.vtex-store-components-3-x-specificationsTableSpecificationHeading),
+:global(.vtex-store-components-3-x-specificationsTablePropertyHeading){
+  font-size: 15px;
+}
+
+
+:global(.vtex-store-components-3-x-specificationItemSpecifications),
+:global(.vtex-store-components-3-x-specificationItemProperty){
+  font-size: 12px;
 }
