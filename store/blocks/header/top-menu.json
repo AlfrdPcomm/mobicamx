@@ -547,15 +547,14 @@
       "menu-item#accesktit2",
       "menu-item#iteaccesk21",
       "menu-item#iteaccesk22",
-      "menu-item#iteaccesk23",
-      "menu-item#iteaccesk24"
+      "menu-item#iteaccesk23"
     ],"props":{
       "verticalAlign":"top"
     }
   },"menu-item#accesktit2":{
     "props":{
       "type":"category",
-      "categoryId": 276,
+      "categoryId": 300,
       "text":"Baño",
       "blockClass":"titcat"
 
@@ -565,29 +564,22 @@
   "menu-item#iteaccesk21":{
     "props":{
       "type":"category",
-      "categoryId": 278,
+      "categoryId": 302,
       "text":"Accesorios de Baños",
       "blockClass":"catprinmen"
     }
   },"menu-item#iteaccesk22":{
     "props":{
       "type":"category",
-      "categoryId": 277,
+      "categoryId": 301,
       "text":"Toallas y Tapetes",
       "blockClass":"catprinmen"
     }
   },"menu-item#iteaccesk23":{
     "props":{
       "type":"category",
-      "categoryId": 279,
+      "categoryId": 303,
       "text":"Jabones",
-      "blockClass":"catprinmen"
-    }
-  },"menu-item#iteaccesk24":{
-    "props":{
-      "type":"category",
-      "categoryId": 351,
-      "text":"Móbica Spa",
       "blockClass":"catprinmen"
     }
   },
