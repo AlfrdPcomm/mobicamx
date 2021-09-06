@@ -365,7 +365,27 @@
       padding-left: 4%;
     }
   }
-/* ----------------------------Inicio newsletter   ----------------------------------- */
+
+  @media(min-width: 640px) and (max-width: 1024px){
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--instatitprin)
+      :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+    :global(.vtex-flex-layout-0-x-flexRowContent--rownovedades)
+      :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+    :global(.vtex-flex-layout-0-x-flexRow--rconig),
+    :global(.vtex-flex-layout-0-x-flexRow--shelfmob)
+      :global(.vtex-store-components-3-x-container),
+    :global(.vtex-flex-layout-0-x-flexColChild--colcolection){
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+  /* ----------------------------Inicio newsletter   ----------------------------------- */
 
 :global(.vtex-shelf-1-x-dot--isActive),
 :global(.vtex-slider-layout-0-x-paginationDot--isActive){

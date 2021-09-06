@@ -100,6 +100,11 @@
 }
 
 @media (max-width: 1024px){
+  :global(.vtex-menu-2-x-styledLinkContent--titfoo2){
+    font-weight: 400;
+  }
+
+
   :global(.vtex-flex-layout-0-x-flexRowContent--rowpm){
     justify-content: center;
     padding-bottom: 15px;

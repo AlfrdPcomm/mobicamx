@@ -73,7 +73,9 @@
   "flex-layout.row#shelfmobnov1":{
     "children":[
       "list-context.product-list#shlefmobnov1"
-    ]
+    ],"props":{
+      "blockClass":"shelfmob"
+    }
   },
 
   "list-context.product-list#shlefmobnov1": {
@@ -105,7 +107,9 @@
   "flex-layout.row#shelfmobnov2":{
     "children":[
       "list-context.product-list#shlefmobnov2"
-    ]
+    ],"props":{
+      "blockClass":"shelfmob"
+    }
   },
 
   "list-context.product-list#shlefmobnov2": {
@@ -165,7 +169,9 @@
     "children":[
       "flex-layout.col#instatabltxt",
       "flex-layout.col#instasldtab"
-    ]
+    ],"props":{
+      "blockClass":"rconig"
+    }
   },
 
   "flex-layout.col#instatabltxt":{
@@ -205,11 +211,11 @@
       "tab-layout#selector",
       "flex-layout.row#colection",
       "flex-layout.row#titnovedades",
-      "flex-layout.row#shelfmobnov1",
+      "flex-layout.row#shelf1",
       "flex-layout.row#titinsta",
       "flex-layout.row#continsta",
       "flex-layout.row#titnovedades2",
-      "flex-layout.row#shelfmobnov2",
+      "flex-layout.row#shelf2",
       //"flex-layout.row#ideas",
       //"flex-layout.row#sldideas",
       "flex-layout.row#newsletter",
@@ -257,7 +263,7 @@
       "blockClass": "titablayout"
     }
   },
-  "flex-layout.row#shelf": {
+  "flex-layout.row#shelf1": {
     "children": [
       "list-context.product-list#demo1"
     ],"props":{
@@ -280,11 +286,51 @@
         "tablet": 3,
         "phone": 2
       },
+      "autoplay":{
+        "timeout":4000,
+        "stopOnHover":true
+      },
       "infinite": true,
       "fullWidth": true,
       "blockClass": "shelf" 
     }
   },
+
+  "flex-layout.row#shelf2": {
+    "children": [
+      "list-context.product-list#demo2"
+    ],"props":{
+      "fullWidth":true,
+      "blockClass":"rowshelf"
+    }
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "showNavigationArrows":"never",      
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "autoplay":{
+        "timeout":4000,
+        "stopOnHover":true
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf" 
+    }
+  },
+
+
+
 
   
 
