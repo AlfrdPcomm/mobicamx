@@ -279,7 +279,8 @@
       "menu-item#itemtit4",
       "menu-item#itemue41",
       "menu-item#itemue42",
-      "menu-item#itemue43"
+      "menu-item#itemue43",
+      "menu-item#itemue44"
     ],"props":{
       "verticalAlign":"top"
     }
@@ -315,7 +316,14 @@
       "text":"Salas Exterior",
       "blockClass":"catprinmen"
     }
-  },  
+  },"menu-item#itemue44":{
+    "props":{
+      "type":"category",
+      "categoryId": 229,
+      "text":"Complementos",
+      "blockClass":"catprinmen"
+    }
+  },   
   
   "flex-layout.col#muebles5":{
     "children":[
@@ -446,8 +454,7 @@
       "menu-item#iteaccesk7",
       "menu-item#iteaccesk8",
       "menu-item#iteaccesk9",
-      "menu-item#iteaccesk10",
-      "menu-item#iteaccesk11"
+      "menu-item#iteaccesk10"
     ]
   },"menu-item#accesktit1":{
     "props":{
@@ -498,21 +505,21 @@
     "props":{
       "type":"category",
       "categoryId": 315,
-      "text":"Velas y Aromáticas",
+      "text":"Velas y Aromáticos",
       "blockClass":"catprinmen"
     }
   },"menu-item#iteaccesk7":{
     "props":{
       "type":"category",
       "categoryId": 313,
-      "text":"Complementos decorativos",
+      "text":"Complementos Decorativos",
       "blockClass":"catprinmen"
     }
   },"menu-item#iteaccesk8":{
     "props":{
       "type":"category",
       "categoryId": 271,
-      "text":"Pisos",
+      "text":"Piso",
       "blockClass":"catprinmen"
     }
   },"menu-item#iteaccesk9":{
@@ -527,13 +534,6 @@
       "type":"category",
       "categoryId": 321,
       "text":"Duvets y Sábanas",
-      "blockClass":"catprinmen"
-    }
-  },"menu-item#iteaccesk11":{
-    "props":{
-      "type":"category",
-      "categoryId": 283,
-      "text":"Móbica Kids",
       "blockClass":"catprinmen"
     }
   },
@@ -681,7 +681,8 @@
       "menu-item#iteaccesk55",
       "menu-item#iteaccesk56",
       "menu-item#iteaccesk57",
-      "menu-item#iteaccesk58"
+      "menu-item#iteaccesk58",
+      "menu-item#iteaccesk59"
     ],"props":{
       "verticalAlign":"top"
     }
@@ -749,6 +750,13 @@
       "type":"category",
       "categoryId": 332,
       "text":"Vino y Queso",
+      "blockClass":"catprinmen"
+    }
+  },"menu-item#iteaccesk59":{
+    "props":{
+      "type":"category",
+      "categoryId": 353,
+      "text":"Grill",
       "blockClass":"catprinmen"
     }
   },

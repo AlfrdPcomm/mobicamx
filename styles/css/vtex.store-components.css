@@ -880,3 +880,8 @@
 :global(.vtex-store-components-3-x-specificationItemProperty){
   font-size: 12px;
 }
+
+:global(.vtex-store-components-3-x-backToTopButtonActive){
+  left: 2rem;
+  right: 0rem;
+}

@@ -352,14 +352,19 @@
       "menu-item#itesalmob4",
       "menu-item#itesalmob5",
       "menu-item#itesalmob6",
-      "menu-item#itesalmob7"
+      "menu-item#itesalmob7",
+      "menu-item#itesalmob8",
+      "menu-item#itesalmob9",
+      "menu-item#itesalmob10",
+      "menu-item#itesalmob11",
+      "menu-item#itesalmob12"
     ]
   },
 
   "menu-item#itemtitmob1":{
     "props":{
       "type":"category",
-      "categoryId": 202,
+      "categoryId": 343,
       "text":"Sala",
       "blockClass":"titcat"
 
@@ -369,50 +374,85 @@
   "menu-item#itesalmob1":{
     "props":{
       "type":"category",
-      "categoryId": 294,
-      "text":"Colecciones",
+      "categoryId": 364,
+      "text":"Bancas y Consolas",
       "blockClass":"catprinmen"
     }
   },"menu-item#itesalmob2":{
     "props":{
       "type":"category",
-      "categoryId": 205,
+      "categoryId": 363,
       "text":"Escuadras",
       "blockClass":"catprinmen"
     }
   },"menu-item#itesalmob3":{
     "props":{
       "type":"category",
-      "categoryId": 210,
-      "text":"Libreros + Consolas",
+      "categoryId": 346,
+      "text":"Libreros",
       "blockClass":"catprinmen"
     }
   },"menu-item#itesalmob4":{
     "props":{
       "type":"category",
-      "categoryId": 206,
-      "text":"Mesas de Acento",
+      "categoryId": 360,
+      "text":"Loveseats",
       "blockClass":"catprinmen"
     }
   },"menu-item#itesalmob5":{
     "props":{
       "type":"category",
-      "categoryId": 289,
-      "text":"Nuestra Propuesta",
+      "categoryId": 365,
+      "text":"Mesas de centro",
       "blockClass":"catprinmen"
     }
   },"menu-item#itesalmob6":{
     "props":{
       "type":"category",
-      "categoryId": 204,
-      "text":"Sillones + Butacas + Bancas",
+      "categoryId": 345,
+      "text":"Mesas de Centro y Laterales",
       "blockClass":"catprinmen"
     }
   },"menu-item#itesalmob7":{
     "props":{
       "type":"category",
-      "categoryId": 203,
-      "text":"Sofá + love",
+      "categoryId": 366,
+      "text":"Mesas Laterales y Auxiliares",
+      "blockClass":"catprinmen"
+    }
+  },"menu-item#itesalmob8":{
+    "props":{
+      "type":"category",
+      "categoryId": 347,
+      "text":"Muebles para TV",
+      "blockClass":"catprinmen"
+    }
+  },"menu-item#itesalmob9":{
+    "props":{
+      "type":"category",
+      "categoryId": 362,
+      "text":"Salas Modulares",
+      "blockClass":"catprinmen"
+    }
+  },"menu-item#itesalmob10":{
+    "props":{
+      "type":"category",
+      "categoryId": 361,
+      "text":"Sillones",
+      "blockClass":"catprinmen"
+    }
+  },"menu-item#itesalmob11":{
+    "props":{
+      "type":"category",
+      "categoryId": 359,
+      "text":"Sofás",
+      "blockClass":"catprinmen"
+    }
+  },"menu-item#itesalmob12":{
+    "props":{
+      "type":"category",
+      "categoryId": 344,
+      "text":"Sofás y Sillones",
       "blockClass":"catprinmen"
     }
   },
@@ -466,7 +506,7 @@
   "menu-item#itemtitmob2":{
     "props":{
       "type":"category",
-      "categoryId": 215,
+      "categoryId": 339,
       "text":"Recámara",
       "blockClass":"titcat"
 
@@ -475,36 +515,36 @@
   "menu-item#iterecmob1":{
     "props":{
       "type":"category",
-      "categoryId": 217,
-      "text":"Burós + Cómodas",
+      "categoryId": 367,
+      "text":"Burós",
       "blockClass":"catprinmen"
     }
   },"menu-item#iterecmob2":{
     "props":{
       "type":"category",
-      "categoryId": 216,
-      "text":"Cama",
+      "categoryId": 341,
+      "text":"Burós y Comodas",
       "blockClass":"catprinmen"
     }
   },"menu-item#iterecmob3":{
     "props":{
       "type":"category",
-      "categoryId": 218,
-      "text":"Colchones",
+      "categoryId": 340,
+      "text":"Cama",
       "blockClass":"catprinmen"
     }
   },"menu-item#iterecmob4":{
     "props":{
       "type":"category",
-      "categoryId": 295,
-      "text":"Colecciones",
+      "categoryId": 342,
+      "text":"Colchones",
       "blockClass":"catprinmen"
     }
   },"menu-item#iterecmob5":{
     "props":{
       "type":"category",
-      "categoryId": 290,
-      "text":"Nuestra Propuesta",
+      "categoryId": 368,
+      "text":"Cómodas",
       "blockClass":"catprinmen"
     }
   },
@@ -559,44 +599,43 @@
   "menu-item#itemtitmob3":{
     "props":{
       "type":"category",
-      "categoryId": 219,
+      "categoryId": 307,
       "text":"Comedor",
       "blockClass":"titcat"
-
     }
   },
   "menu-item#itecomob1":{
     "props":{
       "type":"category",
-      "categoryId": 223,
-      "text":"Bar",
+      "categoryId": 369,
+      "text":"Bancos",
       "blockClass":"catprinmen"
     }
   },"menu-item#itecomob2":{
     "props":{
       "type":"category",
-      "categoryId": 296,
-      "text":"Colecciones",
+      "categoryId": 308,
+      "text":"Mesa de Comedor",
       "blockClass":"catprinmen"
     }
   },"menu-item#itecomob3":{
     "props":{
       "type":"category",
-      "categoryId": 220,
-      "text":"Mesas",
+      "categoryId": 311,
+      "text":"Muebles de Bar",
       "blockClass":"catprinmen"
     }
   },"menu-item#itecomob4":{
     "props":{
       "type":"category",
-      "categoryId": 221,
+      "categoryId": 309,
       "text":"Sillas",
       "blockClass":"catprinmen"
     }
   },"menu-item#itecomob5":{
     "props":{
       "type":"category",
-      "categoryId": 222,
+      "categoryId": 310,
       "text":"Trinchadores",
       "blockClass":"catprinmen"
     }
@@ -690,7 +729,8 @@
       "menu-item#itemtit4",
       "menu-item#itemue41",
       "menu-item#itemue42",
-      "menu-item#itemue43"
+      "menu-item#itemue43",
+      "menu-item#itemue44"
     ]
   },
 
@@ -744,8 +784,7 @@
       "menu-item#iteaccesk7",
       "menu-item#iteaccesk8",
       "menu-item#iteaccesk9",
-      "menu-item#iteaccesk10",
-      "menu-item#iteaccesk11"
+      "menu-item#iteaccesk10"
     ]
   },
 
@@ -842,7 +881,8 @@
       "menu-item#iteaccesk55",
       "menu-item#iteaccesk56",
       "menu-item#iteaccesk57",
-      "menu-item#iteaccesk58"
+      "menu-item#iteaccesk58",
+      "menu-item#iteaccesk59"
     ]
   },
 
