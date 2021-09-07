@@ -364,9 +364,32 @@
     :global(.vtex-store-newsletter-1-x-defaultSuccessMessage){
       padding-left: 4%;
     }
+    :global(.vtex-store-locator-0-x-storeName){
+      margin-top: 25px;
+    }
+    
+    :global(.vtex-store-locator-0-x-container){
+      display: block;
+    }
+
+    :global(.vtex-store-locator-0-x-storesMapCol){
+      display: none;
+    }
+    :global(.vtex-store-locator-0-x-storesListCol){
+      width: 100%;
+    }
   }
 
   @media(min-width: 640px) and (max-width: 1024px){
+    :global(.vtex-flex-layout-0-x-flexRowContent--contenedordetalles)
+      :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 50%!important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--roedet)
+      :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 100%!important;
+      }
 
     :global(.vtex-flex-layout-0-x-flexRowContent--instatitprin)
       :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
@@ -884,4 +907,33 @@
 :global(.vtex-store-components-3-x-backToTopButtonActive){
   left: 2rem;
   right: 0rem;
+}
+
+
+:global(.vtex-store-locator-0-x-storesMapCol){
+  min-height: 500px;
+}
+
+:global(.vtex-store-locator-0-x-storeName){
+  font-size: 24px;
+}
+
+:global(.vtex-store-locator-0-x-container),
+:global(.vtex-flex-layout-0-x-flexCol--title),
+:global(.vtex-flex-layout-0-x-flexRow--contenedordetalles){
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+:global(.vtex-store-locator-0-x-addressLabel){
+  margin-bottom: 15px;
+}
+
+:global(.vtex-store-locator-0-x-hoursContainer){
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+:global(.vtex-store-locator-0-x-addressLink){
+  color: #7FBB01;
 }

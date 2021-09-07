@@ -6,18 +6,23 @@
       "children": ["flex-layout.col#title"]
     },
     "flex-layout.row#container": {
-      "children": ["store-list"]
+      "children": ["store-list"],
+      "props":{
+        "blockClass":"contenedormaps",
+        "marginBottom":8
+      }
     },
     "flex-layout.col#title": {
       "children": ["rich-text#title"],
       "props": {
         "blockClass": "title",
-        "preventVerticalStretch": true
+        "preventVerticalStretch": true,
+        "horizontalAlign":"center"
       }
     },
     "rich-text#title": {
       "props": {
-        "text": "## Store Locator"
+        "text": "## Ubicaciones"
       }
     },
     "store.storedetail": {
@@ -30,51 +35,78 @@
       }
     },
     "flex-layout.row#titleStore": {
-      "children": ["flex-layout.col#titleStore"]
+      "children": ["flex-layout.col#titleStore"],
+      "props":{
+        "fullWidth":true,
+        "horizontalAlign":"center"
+      }
     },
     "flex-layout.row#containerStore": {
-      "children": ["flex-layout.col#detail", "flex-layout.col#store"]
+      "children": ["flex-layout.col#detail", "flex-layout.col#store"],
+      "props":{
+        "blockClass":"contenedordetalles",
+        "marginBottom":9
+      }
     },
     "flex-layout.col#titleStore": {
       "children": ["rich-text#titleStore"],
       "props": {
         "blockClass": "title",
-        "preventVerticalStretch": true
+        "preventVerticalStretch": true,
+        "horizontalAlign":"center"
       }
     },
     "rich-text#titleStore": {
       "props": {
-        "text": "## Store Detail"
+        "text": "### Detalle de Tienda"
       }
     },
     "flex-layout.col#detail": {
       "children": [
-        "store-back-link",
-        "store-map",
         "store-address",
         "store-hours",
-        "store-instructions"
+        "store-instructions",
+        "store-back-link"
       ],
       "props": {
         "width": "30%",
-        "preventVerticalStretch": true
+        "preventVerticalStretch": true,
+        "blockClass":"columnadetalles"
       }
     },
     "flex-layout.col#store": {
-      "children": ["store-name"],
+      "children": [
+        "store-name",
+        "flex-layout.row#mapsdetail"
+        
+      ],
       "props": {
         "width": "70%"
       }
     },
+    "flex-layout.row#mapsdetail":{
+      "children":[
+        "store-map"
+      ],
+      "props":{
+        "blockClass":"roedet",
+        "marginTop":5
+      }
+    },
+    "store-map":{
+      "props":{
+        "height": "400px"
+      }
+    },
     "store-hours": {
       "props": {
-        "label": "Business hours:",
+        "label": "Horarios:",
         "format": "12h"
       }
     },
     "store-back-link": {
       "props": {
-        "label": "Back to all stores"
+        "label": "Regresar a todas las tiendas"
       }
     },
     "store-instructions": {
