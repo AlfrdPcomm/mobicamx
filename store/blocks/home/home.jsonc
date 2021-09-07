@@ -79,6 +79,7 @@
   },
 
   "list-context.product-list#shlefmobnov1": {
+    "title":"mobile1",
     "blocks": ["product-summary.shelf#mob"],
     "children": ["slider-layout#shelf-productsmobnov1"],
     "props": {
@@ -113,6 +114,7 @@
   },
 
   "list-context.product-list#shlefmobnov2": {
+    "title":"mobile2",
     "blocks": ["product-summary.shelf#mob"],
     "children": ["slider-layout#shelf-productsmobnov2"],
     "props": {
@@ -272,6 +274,7 @@
     }
   },
   "list-context.product-list#demo1": {
+    "title":"Prod desktop1",
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
@@ -305,6 +308,7 @@
     }
   },
   "list-context.product-list#demo2": {
+    "title":"Prod desktop2",
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products2"],
     "props": {
