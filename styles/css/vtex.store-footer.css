@@ -100,6 +100,12 @@
 }
 
 @media (max-width: 1024px){
+
+  :global(.vtex-search-result-3-x-buttonShowMore){
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+  }
+
   :global(.vtex-menu-2-x-styledLinkContent--titfoo2){
     font-weight: 400;
   }
