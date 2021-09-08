@@ -56,61 +56,60 @@
     /*----------------- Inicio de Formulario--------------------*/
     "flex-layout.col#form":{
         "children":[
-         "form"
+         "form#contacto"
         ],"props":{
             "blockClass":"colform"
         }
     },
 
-    "form": {
-        "props": {
-          "entity": "clients",
-          "schema": "person"
-        },
-        "children": [
-          "form-input.text#firstName",
-          "form-submit"
-        ],
-        "blocks": ["form-success"]
+    "form#contacto": {
+      "props": {
+        "entity": "contacto",
+        "schema": "mdv1"
       },
-      "form-success": {
-        "children": [
-          "rich-text#successSubmit"
-        ]
-      },
-      "rich-text#successSubmit": {
-        "props": {
-          "text": "Succesfully submitted the data!",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER"
-        }
-      },
-      "form-input.text#firstName": {
-        "props": {
-          "pointer": "#/properties/firstName"
-        }
-      },
-      "form-input.text#lastName": {
-        "props": {
-          "pointer": "#/properties/lastName"
-        }
-      },
-      "form-input.checkbox#agreement": {
-        "props": {
-          "pointer": "#/properties/agreement",
-          "label": "Do you agree that this is the best form component in the whole wide world?"
-        }
-      },
-      "form-field-group#address": {
-        "props": {
-          "pointer": "#/properties/address"
-        }
-      },
-      "form-submit": {
-        "props": {
-          "label": "Submit"
-        }
-      },
+      "children": [
+        "form-input.text#nombre",
+        "form-input.text#correo",
+        "form-input.textarea",
+        "form-submit#contacto"
+      ],
+      "blocks": ["form-success#contacto"]
+    },
+    "form-success#contacto": {
+      "children": [
+        "rich-text#successSubmit-contacto"
+      ]
+    },
+    "rich-text#successSubmit-contacto": {
+      "props": {
+        "text": "Mensaje enviado correctamente!",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },
+    "form-input.text#nombre": {
+      "props": {
+        "pointer": "#/properties/nombre",
+        "label": "Nombre"
+      }
+    },
+    "form-input.text#correo": {
+      "props": {
+        "pointer": "#/properties/email",
+        "label": "Email"
+      }
+    },
+    "form-input.textarea": {
+      "props": {
+        "pointer": "#/properties/mensaje",
+        "label": "Escribe tu mensaje"
+      }
+    },
+    "form-submit#contacto": {
+      "props": {
+        "label": "Enviar"
+      }
+    },
 
     /*----------------- Final de Formulario--------------------*/
     
