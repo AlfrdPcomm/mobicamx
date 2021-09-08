@@ -11,34 +11,28 @@
       "blocks": ["flex-layout.row#top", "list-context.wishlist"]
     },
     "flex-layout.row#top": {
-      "children": ["flex-layout.col#titlewl"]
+      "children": ["flex-layout.col#titlew"]
     },
-    "flex-layout.col#titlewl": {
-      "children": ["rich-text#titlewl"],
+    "flex-layout.col#titlew": {
+      "children": ["rich-text#titlew"],
       "props": {
         "blockClass": "titleWishlist",
         "preventVerticalStretch": true,
         "horizontalAlign": "center"
       }
     },
-    "rich-text#titlewl": {
+    "rich-text#titlew": {
       "props": {
-        "text": "### Mi Wishlist"
+        "text": "### Wishlist"
       }
     },
+    
     "list-context.wishlist": {
-      "blocks": ["product-summary.shelf#wishlist"],
+      "blocks": [
+        "wishlist-empty-list",
+        "product-summary.shelf"
+    ],
       "children": ["slider-layout#wishlist"]
-    },
-    "product-summary.shelf#wishlist": {
-      "children": [
-        "add-to-list-btn",
-        "product-summary-image",
-        "product-summary-name",
-        "product-summary-space",
-        "product-summary-price",
-        "add-to-cart-button"
-      ]
     },
     "slider-layout#wishlist": {
       "props": {

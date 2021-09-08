@@ -253,6 +253,10 @@
         "tablet": 1,
         "phone": 1
       },
+      "autoplay":{
+        "stopOnHover":true,
+        "timeout":4000
+      },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"

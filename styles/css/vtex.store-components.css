@@ -937,3 +937,10 @@
 :global(.vtex-store-locator-0-x-addressLink){
   color: #7FBB01;
 }
+
+
+:global(.vtex-store-locator-0-x-addressLabel),
+:global(.vtex-store-locator-0-x-hoursLabel){
+  line-height: 3.5;
+  border-bottom: 1px solid #000;
+}
