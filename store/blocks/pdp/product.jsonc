@@ -99,6 +99,7 @@
       "rowGap": 0
     },
     "children": [
+      
       "flex-layout.row#highlightpord",      
       "flex-layout.row#product-name",
       "flex-layout.row#list-price-savings",
@@ -314,7 +315,7 @@
 
   "flex-layout.col#sharewishcol":{
     "children":[
-     "add-to-list-btn"
+      "add-to-list-btn"
     ],"props":{
       "blockClass":"coladdtolist",
       "width":"15%"

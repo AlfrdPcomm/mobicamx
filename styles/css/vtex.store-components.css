@@ -944,3 +944,11 @@
   line-height: 3.5;
   border-bottom: 1px solid #000;
 }
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf){
+  line-height: 1 !important;
+}
+
+:global(.vtex-product-summary-2-x-hoverImage){
+  z-index: 1;
+}

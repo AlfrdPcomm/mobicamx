@@ -20,8 +20,8 @@
 }
 /*CAMBIOS*/
 :global(.vtex-search-result-3-x-buttonShowMore){
-  padding-bottom: 50px;
-  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 :global(.vtex-store-components-3-x-swiperCaret){
   visibility: hidden;

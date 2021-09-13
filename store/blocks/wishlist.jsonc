@@ -28,11 +28,17 @@
     },
     
     "list-context.wishlist": {
-      "blocks": [
-        "wishlist-empty-list",
-        "product-summary.shelf"
-    ],
+      "blocks": ["product-summary.shelf"],
       "children": ["slider-layout#wishlist"]
+    },"product-summary.shelf#wishlist": {
+      "children": [
+        "add-to-list-btn",
+        "product-summary-image",
+        "product-summary-name",
+        "product-summary-space",
+        "product-summary-price",
+        "add-to-cart-button"
+      ]
     },
     "slider-layout#wishlist": {
       "props": {

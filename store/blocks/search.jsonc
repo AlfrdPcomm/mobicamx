@@ -478,6 +478,7 @@
   "product-summary.shelf#searchresult":{
     "children":[
       "stack-layout#prodsum",
+      "flex-layout.row#highlight",
       "product-summary-name",
       "product-summary-space",
       "flex-layout.row#selling-price-savings",
