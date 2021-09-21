@@ -56,7 +56,7 @@
     /*----------------- Inicio de Formulario--------------------*/
     "flex-layout.col#form":{
         "children":[
-         "form#contacto"
+        "form#contacto"
         ],"props":{
             "blockClass":"colform"
         }
@@ -65,7 +65,7 @@
     "form#contacto": {
       "props": {
         "entity": "contacto",
-        "schema": "mdv1"
+        "schema": "Person"
       },
       "children": [
         "form-input.text#nombre",
