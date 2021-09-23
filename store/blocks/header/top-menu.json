@@ -3,7 +3,6 @@
     "children": [
       "menu-item#mueblesdesk",
       "menu-item#accesoriosdesk",
-      "menu-item#electrodesk",
       "menu-item#ofertas",
       "menu-item#entrega",
       "menu-item#hooffdesk"

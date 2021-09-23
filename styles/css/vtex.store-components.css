@@ -210,7 +210,6 @@
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel){
   background-color: #ffffff;
-  padding-top: 20px;
 }
 
 :global(.vtex-slider-layout-0-x-sliderTrack--carouselcats){
@@ -632,6 +631,12 @@
         border-color: #F6F6F4 !important; 
         width: 100% !important;
       }
+
+
+  :global(.vtex-rich-text-0-x-wrapper--txtinfocolection )
+  :global(.vtex-rich-text-0-x-paragraph){
+    text-align: left;
+  }
 }
 
 
@@ -909,7 +914,7 @@
   right: 0rem;
 }
 
-
+/*------------------------ Inicio Store Locator--------------------*/
 :global(.vtex-store-locator-0-x-storesMapCol){
   min-height: 500px;
 }
@@ -944,6 +949,17 @@
   line-height: 3.5;
   border-bottom: 1px solid #000;
 }
+
+:global(.vtex-store-locator-0-x-addressListLink){
+  font-size: 12px;
+}
+:global(.vtex-store-locator-0-x-addressListLink)::after{
+  content: url(assets/iconsmen/gosl.png);
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+/*--------------------- Fin Estilo Store Locator ----------------------*/
 
 :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf){
   line-height: 1 !important;

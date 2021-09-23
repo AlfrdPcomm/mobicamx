@@ -186,7 +186,7 @@
       "verticalAlign": "middle"
     },
     //"children": ["vtex.menu@2.x:menu#category-menu"]
-    "children": ["vtex.menu@2.x:menu#menu-alfrd"]
+    "children": []
   },
   "logo#desktop": {
     "props": {
