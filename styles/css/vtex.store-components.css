@@ -968,3 +968,13 @@
 :global(.vtex-product-summary-2-x-hoverImage){
   z-index: 1;
 }
+
+:global(.vtex-store-locator-0-x-backlink){
+  text-decoration: underline;
+}
+
+:global(.vtex-store-locator-0-x-backlink)::before{
+  content: url(assets/iconsmen/left.png);
+  position: relative;
+  top: 3px;
+}
