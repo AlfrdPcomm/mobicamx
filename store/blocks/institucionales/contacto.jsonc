@@ -64,8 +64,8 @@
 
     "form#contacto": {
       "props": {
-        "entity": "contacto",
-        "schema": "Person"
+        "entity": "contactform",
+        "schema": "datoscont"
       },
       "children": [
         "form-input.text#nombre",
