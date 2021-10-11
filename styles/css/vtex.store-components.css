@@ -753,9 +753,9 @@
   display: none;
 }
 :global(.vtex-menu-2-x-styledLinkContent--share)::after{
- content: url(assets/share24.png);
+ content: url(assets/share29x24.png);
  position: relative;
- top: 2px;
+ top: 1px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--share){  
@@ -958,6 +958,22 @@
   position: relative;
   top: 2px;
   left: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--columnadetalles){
+  padding-bottom: 25px;
+}
+
+:global(.vtex-store-locator-0-x-instructionsLabel)::before{
+  content: "TEL: ";
+}
+
+:global(.vtex-store-locator-0-x-instructionsLink){
+  color: #7FBB01;
+}
+
+:global(.vtex-login-2-x-accountOptionsSectionTitle){
+  display: none;
 }
 /*--------------------- Fin Estilo Store Locator ----------------------*/
 

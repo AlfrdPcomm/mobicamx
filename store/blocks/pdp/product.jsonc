@@ -355,6 +355,7 @@
 
   "image#share":{
     "props":{
+      "maxWidht":"26",
       "src":"assets/share24.png"
     }
   },  

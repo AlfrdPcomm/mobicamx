@@ -31,7 +31,8 @@
     "store-group": {
       "children": ["flex-layout.row#containerStore"],
       "props": {
-        "title": "{storeName} Store"
+        "title": "{storeName} Store",
+        "instructionsAsPhone": true
       }
     },
     "flex-layout.row#titleStore": {
