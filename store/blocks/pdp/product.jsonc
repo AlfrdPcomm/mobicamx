@@ -104,22 +104,13 @@
       "flex-layout.row#product-name",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
-      //"product-installments",
-      //"product-separator",
-      //"product-identifier.product",
       "sku-selector",
       "product-quantity",
-      //"product-assembly-options",
-      //"product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "flex-layout.row#descripcion",
       "flex-layout.row#epecs",
-      //"flex-layout.row#textsala",
-      //"flex-layout.row#coleccionsoli",
       "flex-layout.row#prodmenaccordion"
-      //"shipping-simulator",
-      //"share#default"
     ]
   },
   "flex-layout.row#highlightpord":{

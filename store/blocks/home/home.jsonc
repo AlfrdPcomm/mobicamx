@@ -270,21 +270,21 @@
   },
   "flex-layout.row#shelf1": {
     "children": [
-      "list-context.product-list#demo1"
+      "list-context.product-list#shelf1"
     ],"props":{
       "fullWidth":true,
       "blockClass":"rowshelf"
     }
   },
-  "list-context.product-list#demo1": {
+  "list-context.product-list#shelf1": {
     "title":"Prod desktop1",
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
+    "children": ["slider-layout#products"],
+    "props":{
+      "hideUnavailableItems":true
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#products": {
     "props": {
       "showNavigationArrows":"never",      
       "itemsPerPage": {
@@ -304,21 +304,21 @@
 
   "flex-layout.row#shelf2": {
     "children": [
-      "list-context.product-list#demo2"
+      "list-context.product-list#shelf2"
     ],"props":{
       "fullWidth":true,
       "blockClass":"rowshelf"
     }
   },
-  "list-context.product-list#demo2": {
+  "list-context.product-list#shelf2": {
     "title":"Prod desktop2",
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products2"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
+    "children": ["slider-layout#products2"],
+    "props":{
+      "hideUnavailableItems":true
     }
   },
-  "slider-layout#demo-products2": {
+  "slider-layout#products2": {
     "props": {
       "showNavigationArrows":"never",      
       "itemsPerPage": {
