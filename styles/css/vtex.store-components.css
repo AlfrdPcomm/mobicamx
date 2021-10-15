@@ -780,6 +780,7 @@
 :global(.vtex-reviews-and-ratings-2-x-loginLink){
   color:#3f3f40;
   text-decoration: underline;
+  width: 100%;
 }
 :global(.vtex-rich-text-0-x-link--txtubicaciones),
 :global(.vtex-reviews-and-ratings-2-x-star--empty){

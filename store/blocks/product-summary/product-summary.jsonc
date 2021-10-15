@@ -163,7 +163,8 @@
   },
   "product-selling-price#summary": {
     "props": {
-      "blockClass": "summary"
+      "blockClass": "summary",
+      "alwaysShow": true
     }
   },
   "product-price-savings#summary": {

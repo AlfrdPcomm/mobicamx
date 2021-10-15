@@ -15,7 +15,8 @@
     "flex-layout.col#contmachote":{
         "children":[
             "rich-text#titulomachote",
-            "rich-text#contenidomachote"
+            "rich-text#contenidomachote",
+            "flex-layout.row#imgcomprar"
         ],"props":{
             "blockClass":"contenidomachote",
             "width":"90%"
@@ -34,7 +35,39 @@
             "text":"#### Subtítulo color \n ### Subtítulo negro \n **Texto**",
             "blockClass":"tcmachote"
         }
-    }
+    },
+    "flex-layout.row#imgcomprar":{
+        "children":[
+            "list-context.image-list#imagecomprar"
+        ],"props":{
+            "marginBottom": 9
+        }
+    },
+    "list-context.image-list#imagecomprar": {
+        "children":[
+            "slider-layout#compra"
+        ],
+        "props": {
+          "preload": true,
+          "images": [
+            {
+              "image": "assets/comprar.jpg",
+              "description": "something something",
+              "mobileImage":"assets/comprar.jpg"
+            }
+          ]
+        }
+      },
+      "slider-layout#compra":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 1,
+              "phone": 1
+            },
+            "infinite": true
+          }
+      }
 
 
 

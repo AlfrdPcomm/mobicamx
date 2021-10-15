@@ -1,0 +1,218 @@
+{
+    "store.custom#contacto-ana":{
+        "blocks":[
+          "flex-layout.row#cover-contacto",
+          "flex-layout.row#titulo-contacto",
+          "flex-layout.row#texto-online-contacto",
+          "flex-layout.row#texto-contacto",
+          "flex-layout.row#tiendas-contacto"
+        ]
+    },
+  
+    "flex-layout.row#cover-contacto":{
+      "children": [
+        "image#cover-contacto"
+      ],
+      "props":{
+          "fullWidth":true
+      }
+    },
+    "image#cover-contacto":{
+      "props": {
+        "src": "assets/contactoa.webp"
+    }
+    },
+    "flex-layout.row#titulo-contacto":{
+      "children":[
+          "rich-text#titulo-contacto"
+      ]
+    },
+  
+    "rich-text#titulo-contacto":{
+      "props":{
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "text": "### ¿Cómo podemos ayudarte?"
+      }
+    },
+  
+    "flex-layout.row#texto-online-contacto":{
+      "children": [
+      "flex-layout.col#text-online-contacto",
+      "flex-layout.col#horario-online-contacto",
+      "flex-layout.col#telefono-online-contacto"
+      ],
+      "props": {
+        "horizontalAlign": "CENTER",
+        "fullWidth": true,
+        "border": "bottom"
+        
+      }
+    },
+  
+    "flex-layout.col#text-online-contacto": {
+      "children": [
+        "rich-text#text-online-contacto"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "paddingLeft":5,
+        "paddingright":5
+        
+      }
+    },
+    "rich-text#text-online-contacto": {
+      "props": {
+          "text": "##### Atención online \n Para cotizaciones o conocer estatus de tu compra online"
+      }
+    },
+  
+    "flex-layout.col#horario-online-contacto": {
+      "children": [
+        "rich-text#horario-online-contacto"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "paddingLeft":5,
+        "paddingright":5
+        
+      }
+    },
+    "rich-text#horario-online-contacto": {
+      "props": {
+          "text": "##### horarios de atención \n lunes a viernes 8:00 a 17:00 hrs."
+      }
+    },
+  
+    "flex-layout.col#telefono-online-contacto": {
+      "children": [
+        "rich-text#telefono-online-contacto"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "paddingLeft":5,
+        "paddingright":5
+        
+      }
+    },
+    "rich-text#telefono-online-contacto": {
+      "props": {
+          "text": "##### contacto \n 55 8070 9005 \n ventasonline@mobica.com.mx"
+      }
+    },
+  
+  
+  
+  
+  
+    "flex-layout.row#texto-contacto":{
+      "children": [
+      "flex-layout.col#text-contacto",
+      "flex-layout.col#horario-contacto",
+      "flex-layout.col#vacio-contacto"
+      ],
+      "props": {
+        "horizontalAlign": "CENTER",
+        "fullWidth": true
+        
+      }
+    },
+  
+    "flex-layout.col#text-contacto": {
+      "children": [
+        "rich-text#text-contacto"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "paddingLeft":5,
+        "paddingright":5
+        
+      }
+    },
+    "rich-text#text-contacto": {
+      "props": {
+          "text": "##### Atención en tienda \n Para conocer estatus de tu compra en tienda física por favor comunícate a la tienda correspondiente"
+      }
+    },
+  
+    "flex-layout.col#horario-contacto": {
+      "children": [
+        "rich-text#horario-contacto"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "paddingLeft":5,
+        "paddingright":5
+        
+      }
+    },
+    "rich-text#horario-contacto": {
+      "props": {
+          "text": "##### horarios de atención \n lunes a domingo 11:00 a 20:00 hrs."
+      }
+    },
+    "flex-layout.col#vacio-contacto": {
+      "children": [
+        
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "paddingLeft":5,
+        "paddingright":5
+        
+      }
+    },
+    "flex-layout.row#tiendas-contacto": {
+      "children": [
+        "flex-layout.col#tiendas-contacto",
+        "flex-layout.col#tiendas1-contacto",
+        "flex-layout.col#tiendas2-contacto"
+        ],
+        "props": {
+          "horizontalAlign": "CENTER",
+          "fullWidth": true
+          
+        }
+    },
+    "flex-layout.col#tiendas-contacto": {
+      "children": [
+        
+      ],
+      "props": {
+        "preventVerticalStretch": true
+        
+      }
+    },
+    "flex-layout.col#tiendas1-contacto": {
+      "children": [
+        "rich-text#text-tiendas1-contacto"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "paddingLeft":5,
+        "paddingright":5
+        
+      }
+    },
+    "rich-text#text-tiendas1-contacto": {
+      "props": {
+          "text": "ALTAVISTA \n 55 5550 2011 \n\n ALAMOS \n 442 241 2007\n\n ARTZ \n55 5929 3358 \n\n BOSQUEs \n 55 5251 6967\n\n CUERNAVACA\n 777 399 2141\n\n CÚSPIDE\n 55 5349 1941\n\n EXPLANADA PACHUCA\n 771 489 7364\n\n EXPLANADA Puebla \n 222 955 6160 \n\n INTERLOMAS \n 55 5290 1448\n\n LEÓN\n 477 771 3859"
+      }
+    },
+    "flex-layout.col#tiendas2-contacto": {
+      "children": [
+        "rich-text#text-tiendas2-contacto"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "paddingLeft":5,
+        "paddingright":5
+        
+      }
+    },
+    "rich-text#text-tiendas2-contacto": {
+      "props": {
+          "text": "LORETO \n 55 5550 2211 \n\n MÉRIDA \n 999 922 9325 \n\n NAUCALPAN \n 55 7589 8042 \n\n PASEO INTERLOMAS \n 55 5290 1448 \n\n PASEO QUERÉTARO \n 55 5290 1448 \n\n POLANCO \n 55 5250 1979 \n\n PRADO NORTE \n 55 5202 6111 \n\n SAN JERóNIMO \n 556553 6091 \n\n SANTA FE \n 55 2167 8491"
+      }
+    }
+  }

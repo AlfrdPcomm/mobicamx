@@ -19,5 +19,8 @@
   },
   "store.custom#contacto":{
     "path":"/contacto"
+  },
+  "store.custom#contacto-ana":{
+    "path":"/contactoa"
   }
 }
