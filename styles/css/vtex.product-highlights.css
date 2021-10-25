@@ -32,4 +32,8 @@
   margin-left: 3px;
 }
 
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--promotion){
+  margin-top: 5px;
+}
+
 

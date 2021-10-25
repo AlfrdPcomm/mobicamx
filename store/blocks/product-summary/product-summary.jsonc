@@ -1,6 +1,7 @@
 {
   "product-summary.shelf": {
     "children": [
+      
       "stack-layout#prodsum",
       "flex-layout.row#highlight",
       "product-summary-space",
@@ -31,20 +32,20 @@
 
   "stack-layout#prodsum": {
     "children": [            
-      "product-summary-image#shelf", 
-      "vtex.product-highlights@2.x:product-highlights#promotion"    
+      "product-summary-image#shelf",
       //"vtex.product-highlights@2.x:product-highlights"  
-      //"modal-trigger#quickview" // Check quickview.jsonc
+     //"modal-trigger#quickview" // Check quickview.jsonc
+     "vtex.product-highlights@2.x:product-highlights#promotion"
     ]
   },
 //--------------------------- Inicio highlight promotion -----------------------
 
  "vtex.product-highlights@2.x:product-highlights#promotion": {
-    "props": {
-      "type": "promotion"
-    },
-    "children": ["product-highlight-wrapper#promotion"]
-  },
+  "children": ["product-highlight-wrapper#promotion"],  
+  "props": {
+      "type": "promotion"    
+  }
+},
   "product-highlight-wrapper#promotion": {
     "props": {
       "blockClass": "promotion"
@@ -85,7 +86,7 @@
       "type": "collection",
       "filter": {
         "type": "show",
-        "highlightNames": ["ENTREGA INMEDIATA"]
+        "highlightNames": ["ENTREGA INMEDIATA","DECOUPAGE"]
       }
     },
     "children": ["product-highlight-text#collection"]

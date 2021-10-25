@@ -1,7 +1,11 @@
 {
     "store.custom#contacto": {
       "children": [
-        "flex-layout.row#titulo",
+        "flex-layout.row#cover-contacto",
+          "flex-layout.row#titulo-contacto",
+          "flex-layout.row#texto-online-contacto",
+          "flex-layout.row#texto-contacto",
+          "flex-layout.row#tiendas-contacto",
         "flex-layout.row#textocontacto",
         "flex-layout.row#form-imagen"
       ]
@@ -45,8 +49,8 @@
 
     "flex-layout.row#form-imagen":{
         "children":[
-            "flex-layout.col#form",
-            "flex-layout.col#imagen"
+            "flex-layout.col#form"
+            //"flex-layout.col#imagen"
         ],"props":{
             "horizontalAlign":"center",
             "marginBottom":10
@@ -58,7 +62,10 @@
         "children":[
         "form#contacto"
         ],"props":{
-            "blockClass":"colform"
+            "widht":"70%",
+            "blockClass":"colform",
+            "paddingLeft":10,
+            "paddingRight":10
         }
     },
 

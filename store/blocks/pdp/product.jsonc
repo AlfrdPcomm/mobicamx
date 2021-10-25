@@ -106,12 +106,32 @@
       "flex-layout.row#selling-price",
       "sku-selector",
       "product-quantity",
-      "flex-layout.row#buy-button",
+      "flex-layout.row#buy-att",
+      "flex-layout.row#buy-button",      
       "availability-subscriber",
       "flex-layout.row#descripcion",
       "flex-layout.row#epecs",
       "flex-layout.row#prodmenaccordion"
     ]
+  },
+
+  "flex-layout.row#buy-att":{
+    "children":[
+      "product-assembly-options"
+    ]
+  },
+
+  "product-assembly-options":{
+    "children":[
+      "assembly-option-input-values"
+    ],"props":{
+      "initiallyOpened":"always"
+    }
+  },
+  "assembly-option-input-values":{
+    "props":{
+      "optionsDisplay": "box"
+    }
   },
   "flex-layout.row#highlightpord":{
     "children":[
