@@ -11,9 +11,10 @@
   /* -------------------------------- Inicio Phone ----------------------------------*/
   "responsive-layout.phone":{
     "children":[
-      "list-context.image-list#demo",
-      "__fold__.experimentalLazyAssets",
+      "list-context.image-list#demo",      
       "flex-layout.row#deals-mobile",
+      "__fold__.experimentalLazyAssets",
+      "__fold__.mobile",
       "flex-layout.row#shelftitle",
       "tab-layout#selector",      
       "flex-layout.row#colection",
@@ -146,9 +147,10 @@
   /* -------------------------------- Inicio Tablet ----------------------------------*/
   "responsive-layout.tablet":{
     "children":[
-      "list-context.image-list#demo",
-      "__fold__.experimentalLazyAssets",
+      "list-context.image-list#demo",      
       "flex-layout.row#deals-mobile",
+      "__fold__.experimentalLazyAssets",
+      "__fold__.mobile",
       "flex-layout.row#shelftitle",
       "tab-layout#selector",     
       "flex-layout.row#colection-tab",
@@ -205,9 +207,10 @@
     "children":[
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */      
       "flex-layout.row#deals",
+      "__fold__.experimentalLazyAssets",
+      "__fold__.desktop",
       "flex-layout.row#shelftitle",
       "tab-layout#selector",
       "flex-layout.row#colection",

@@ -983,7 +983,8 @@
       "flex-layout.col#drawelec"
     ],"props":{
       "preserveLayoutOnMobile":true,
-      "blockClass":"rowitemen"
+      "blockClass":"rowitemen",
+      "verticalAlign":"middle"
     }
   },
   "flex-layout.col#imgelec":{
@@ -1002,11 +1003,24 @@
   },
   "flex-layout.col#drawelec":{
     "children":[
-      "drawer#electronicos"
+      "menu-item#novedades"
+      //"drawer#electronicos"
     ],"props":{
       "verticalAlign":"middle"
     }
-  },"drawer#electronicos":{
+  },
+  "menu-item#novedades":{
+    "props":{
+      "type":"custom",
+      "itemProps":{
+        "text":"NOVEDADES",
+        "href":"/806?map=productClusterIds"
+      },
+      "blockClass":"itemdraw"
+    }
+  },
+  
+  "drawer#electronicos":{
     "props":{
       "orientation":"vertical",
       "blockClass":"drawerelectro"
@@ -1049,11 +1063,24 @@
   },
   "flex-layout.col#drawnov":{
     "children":[
-      "drawer#novedades"
+      "menu-item#entregamob"
+      //"drawer#novedades"
     ],"props":{
       "verticalAlign":"middle"
     }
-  },"drawer#novedades":{
+  },
+  "menu-item#entregamob":{
+    "props":{
+      "type":"custom",
+      "itemProps":{
+        "text":"ENTREGA INMEDIATA",
+        "href":"/810?map=productClusterIds"
+      },
+      "blockClass":"itemdraw"
+    }
+  },
+  
+  "drawer#novedades":{
     "props":{
       "orientation":"vertical",
       "blockClass":"drawernovedades"
@@ -1094,7 +1121,16 @@
     "props":{
       "orientation":"vertical",
       "blockClass":"drawerofertas"
-    }
+    },
+    "children":[
+      "flex-layout.col#colhomof"
+    ]
+  },"flex-layout.col#colhomof":{
+    "children":[
+      "menu-item#ooffdesktit1",
+      "menu-item#ooffdesk1",
+      "menu-item#ooffdesk2"
+    ]
   },
 
 

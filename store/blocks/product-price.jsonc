@@ -12,6 +12,12 @@
     ]
   },
 
+  "product-selling-price":{
+    "props":{
+      "alwaysShow":true
+    }
+  },
+
   "flex-layout.row#list-price-savings": {
     "props": {
       "blockClass":"rowprecprod",

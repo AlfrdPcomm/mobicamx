@@ -1,7 +1,7 @@
 {
     "my-account-link.wishlist-link": {
       "props": {
-        "label": "Mi Wishlist"
+        "label": "Tu Wishlist"
       }
     },
     "my-account-page.wishlist-page": {
@@ -23,7 +23,7 @@
     },
     "rich-text#titlew": {
       "props": {
-        "text": "### Wishlist"
+        "text": "### Tu Wishlist"
       }
     },
     

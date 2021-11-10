@@ -1,7 +1,6 @@
 {
   "product-summary.shelf": {
     "children": [
-      
       "stack-layout#prodsum",
       "flex-layout.row#highlight",
       "product-summary-space",
@@ -32,28 +31,25 @@
 
   "stack-layout#prodsum": {
     "children": [            
-      "product-summary-image#shelf",
+      "product-summary-image#shelf"
+      //"vtex.product-highlights@2.x:product-highlights#promotion" 
       //"vtex.product-highlights@2.x:product-highlights"  
      //"modal-trigger#quickview" // Check quickview.jsonc
-     "vtex.product-highlights@2.x:product-highlights#promotion"
+     
     ]
   },
 //--------------------------- Inicio highlight promotion -----------------------
 
  "vtex.product-highlights@2.x:product-highlights#promotion": {
-  "children": ["product-highlight-wrapper#promotion"],  
+  "children": ["product-highlight-text#promotion"],  
   "props": {
-      "type": "promotion"    
+      "type": "promotion",
+      "filter":{
+        "type":"show",
+        "highlightNames":["5%","20%","30%","40%","50%","60%", "prueba 20% + 5%", "prueba 15%"]
+      }   
   }
-},
-  "product-highlight-wrapper#promotion": {
-    "props": {
-      "blockClass": "promotion"
-    },
-    "children": [
-      "product-highlight-text#promotion"]
-  },
-  "product-highlight-text#promotion": {
+},"product-highlight-text#promotion": {
     "props": {
       "message": "{highlightName}"
     }
@@ -70,7 +66,7 @@
 
   "product-summary-image#shelf": {
     "props": {
-      "showBadge": false,
+      "showBadge": true,
       "aspectRatio": "1:1",
       "maxHeight": 300,
       "hoverImage":{  
@@ -97,33 +93,6 @@
       "blockClass": "highcollection"
     }
   },
-
-
-
-
-
-
-
-/*"vtex.product-highlights@2.x:product-highlights#collection": {
-    "props": {
-      "type": "collection",
-      "blockClass":"collectionsumm"
-    },
-    "children": ["product-highlight-wrapper"]
-  },
-  "product-highlight-wrapper": {
-    "props": {
-      "blockClass": "collection"
-    },
-    "children": [
-      "product-highlight-text#collection"]
-  },
-  "product-highlight-text#collection": {
-    "props": {
-      "message": "{highlightName}",
-      "blockClass":"collection"
-    }
-  },*/
 
   "product-list-price#summary": {
     "props": {
@@ -194,7 +163,10 @@
   "flex-layout.row#highlight":{
     "children":[
       "vtex.product-highlights@2.x:product-highlights#collection"
-    ]
+    ],"props":{
+      "marginTop":3,
+      "blockClass":"hicol"
+    }
   },
   
   "flex-layout.row#saving":{
@@ -205,7 +177,9 @@
   "flex-layout.row#selling-price":{
     "children":[
       "product-selling-price#summary"
-    ]
+    ],"props":{
+      "marginBottom":4
+    }
   },
   "product-summary-sku-selector":{
     "props":{

@@ -377,6 +377,14 @@
     :global(.vtex-store-locator-0-x-storesListCol){
       width: 100%;
     }
+
+    :global(.vtex-product-highlights-2-x-productHighlightText--highcollection){
+      font-size: 11px !important;
+    }
+
+    :global(.vtex-search-result-3-x-galleryItem--grid){
+      padding: 0;
+    }
   }
 
   @media(min-width: 640px) and (max-width: 1024px){
@@ -995,9 +1003,49 @@
   top: 3px;
 }
 
-@media (min-width: 360px) and (max-width:639px){
+@media (max-width:639px){
   :global(.vtex-flex-layout-0-x-flexCol--colform){
     padding-left: 5px;
     padding-right: 5px;
   }
+}
+
+:global(.vtex-my-authentication-1-x-loginSessionsBox_content){
+  font-size: 0;
+}
+
+:global(.vtex-my-authentication-1-x-loginSessionsBox_content)::before{
+  content: "TIENES 1 SESIÓN ACTIVA";
+  font-size: 16px;
+}
+
+:global(.vtex-store-components-3-x-discountInsideContainer){
+  z-index: 2;
+  right: auto;
+  left: 0;
+  background-color: #E30A1D;
+  border-radius: 6px;
+  margin-top: 3px;
+  margin-left: 3px;
+  font-weight: 700;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--hicol){
+  height:100%;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--itemdraw){
+  margin-left: .7rem;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--itemdraw){
+  font-size: 14px;
+  color: #000;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--rowitemen){
+
+  border-bottom: 1px solid #E5E5E1;
 }

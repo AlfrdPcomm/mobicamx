@@ -155,7 +155,7 @@
   :global(.vtex-button)
     :global(.vtex-button__label)::before{
       content: url(assets/bag17px.png);
-      width: 15px;
+      width: 17px;
 }
 
 :global(.vtex-minicart-2-x-openIconContainer)
@@ -194,9 +194,7 @@
       }
 
 
-:global(.vtex-flex-layout-0-x-flexRowContent--rowitemen){
-  border-bottom: 1px solid #E5E5E1;
-}
+
 
 :global(.vtex-store-components-3-x-autoCompleteOuterContainer--stylesrch)
 :global(.vtex-input)
@@ -287,7 +285,7 @@
 }
 
 :global(.vtex-store-drawer-0-x-openIconContainer--drawerofertas)::after{
-  content: "OFERTAS";
+  content: "HOME OFFICE";
   font-size: 14px;
 }
 

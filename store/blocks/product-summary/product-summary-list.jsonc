@@ -137,7 +137,7 @@
   },
   "product-summary-image#summaryListDesktop": {
     "props": {
-      "showBadge": false,
+      "showBadge": true,
       "aspectRatio": "1:1",
       "maxHeight": 180,
       "blockClass": "summaryListDesktop"
@@ -164,7 +164,7 @@
   },
   "product-summary-image#summaryListMobile": {
     "props": {
-      "showBadge": false,
+      "showBadge": true,
       "aspectRatio": "1:1",
       "maxHeight": 220,
       "blockClass": "summaryListMobile"

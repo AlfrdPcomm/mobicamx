@@ -337,10 +337,14 @@
     }
   },
   "flex-layout.row#contentmobile": {
-    "children": ["search-content"],
+    "children": ["search-content#mob"],
     "props": {
       "preserveLayoutOnMobile": true
     }
+  },
+
+  "search-content#mob":{
+    "blocks": ["gallery#mob", "not-found"]
   },
 
   "flex-layout.row#searchinfomobile": {
@@ -424,6 +428,32 @@
       "GridSummary": "product-summary.shelf#searchresult"
     }
   },
+
+  "gallery#mob": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 4,
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#listLayout",
+      "GridSummary": "product-summary.shelf#mob"
+    }
+  },
+
+
   "gallery-layout-switcher": {
     "children": [
       /*
