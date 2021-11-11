@@ -1,15 +1,15 @@
 {
     "store.storelocator": {
-      "blocks": ["flex-layout.row#title", "flex-layout.row#container"]
+      "blocks": ["flex-layout.row#title", "storeMap"]
     },
     "flex-layout.row#title": {
       "children": ["flex-layout.col#title"]
     },
     "flex-layout.row#container": {
       "children": ["store-list"],
-      "props":{
-        "blockClass":"contenedormaps",
-        "marginBottom":8
+      "props": {
+        "blockClass": "contenedormaps",
+        "marginBottom": 8
       }
     },
     "flex-layout.col#title": {
@@ -17,7 +17,7 @@
       "props": {
         "blockClass": "title",
         "preventVerticalStretch": true,
-        "horizontalAlign":"center"
+        "horizontalAlign": "center"
       }
     },
     "rich-text#title": {
@@ -37,16 +37,16 @@
     },
     "flex-layout.row#titleStore": {
       "children": ["flex-layout.col#titleStore"],
-      "props":{
-        "fullWidth":true,
-        "horizontalAlign":"center"
+      "props": {
+        "fullWidth": true,
+        "horizontalAlign": "center"
       }
     },
     "flex-layout.row#containerStore": {
       "children": ["flex-layout.col#detail", "flex-layout.col#store"],
-      "props":{
-        "blockClass":"contenedordetalles",
-        "marginBottom":9
+      "props": {
+        "blockClass": "contenedordetalles",
+        "marginBottom": 9
       }
     },
     "flex-layout.col#titleStore": {
@@ -54,7 +54,7 @@
       "props": {
         "blockClass": "title",
         "preventVerticalStretch": true,
-        "horizontalAlign":"center"
+        "horizontalAlign": "center"
       }
     },
     "rich-text#titleStore": {
@@ -72,30 +72,24 @@
       "props": {
         "width": "30%",
         "preventVerticalStretch": true,
-        "blockClass":"columnadetalles"
+        "blockClass": "columnadetalles"
       }
     },
     "flex-layout.col#store": {
-      "children": [
-        "store-name",
-        "flex-layout.row#mapsdetail"
-        
-      ],
+      "children": ["store-name", "flex-layout.row#mapsdetail"],
       "props": {
         "width": "70%"
       }
     },
-    "flex-layout.row#mapsdetail":{
-      "children":[
-        "store-map"
-      ],
-      "props":{
-        "blockClass":"roedet",
-        "marginTop":5
+    "flex-layout.row#mapsdetail": {
+      "children": ["store-map"],
+      "props": {
+        "blockClass": "roedet",
+        "marginTop": 5
       }
     },
-    "store-map":{
-      "props":{
+    "store-map": {
+      "props": {
         "height": "400px"
       }
     },
@@ -116,3 +110,4 @@
       }
     }
   }
+  

@@ -11,6 +11,7 @@
   /* -------------------------------- Inicio Phone ----------------------------------*/
   "responsive-layout.phone":{
     "children":[
+      "flex-layout.row#countdown",
       "list-context.image-list#demo",      
       "flex-layout.row#deals-mobile",
       "__fold__.experimentalLazyAssets",
@@ -147,6 +148,7 @@
   /* -------------------------------- Inicio Tablet ----------------------------------*/
   "responsive-layout.tablet":{
     "children":[
+      "flex-layout.row#countdown",
       "list-context.image-list#demo",      
       "flex-layout.row#deals-mobile",
       "__fold__.experimentalLazyAssets",
@@ -205,6 +207,7 @@
   /* -------------------------------- Inicio Desktop ----------------------------------*/
   "responsive-layout.desktop":{
     "children":[
+      "flex-layout.row#countdown",
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */      
@@ -1361,8 +1364,18 @@
 "back-to-top-button":{
   "props":{
     "display":"caret-icon"
+    }
+},
+/* Countdown */
+"flex-layout.row#countdown": {
+  "children": ["countdown"],
+  "props": {
+    "fullWidth": true,
+    "blockClass": "rowCountDown",
+    "horizontalAlign": "center"
   }
 }
+/* Countdown */
     
 
 

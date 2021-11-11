@@ -1049,3 +1049,99 @@
 
   border-bottom: 1px solid #E5E5E1;
 }
+
+/* CountDown */
+
+:global(.vtex-flex--countdown-div) {
+  margin-top: auto;
+  margin-bottom: 0.5rem;
+  font-size: 25px;
+  font-family: "Novecento-Bold";
+  font-weight: 500;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+:global(.vtex-flex--countdown-time) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-flex--countdown-time) {
+  margin-bottom: 1rem;
+}
+
+:global(.vtex-flex--countdown-div) :global(.vtex-flex--countdown-text) {
+  font-size: 18px;
+  font-family: "Novecento-Bold";
+  margin-right: 15px;
+  color: #707070;
+}
+
+:global(.vtex-flex--countdownDays0),
+:global(.vtex-flex--countdownDays1),
+:global(.vtex-flex--countdownHours0),
+:global(.vtex-flex--countdownHours1),
+:global(.vtex-flex--countdownMinutes0),
+:global(.vtex-flex--countdownMinutes1),
+:global(.vtex-flex--countdownSeconds0),
+:global(.vtex-flex--countdownSeconds1) {
+  padding-top: 4px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 7px;
+  background-color: #bb2432;
+  border-radius: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+:global(.vtex-flex--countdownSeparator) {
+  color: #353734;
+  font-family: "Novecento-Bold";
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+:global(.vtex-flex--countdown-time-name) {
+  padding-top: 5px;
+  font-size: 12px;
+  font-family: "Novecento-Bold";
+  margin-right: 15px;
+  color: #707070 !important;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  :global(.vtex-flex--countdown-div) {
+    font-size: 20px;
+  }
+
+  :global(.vtex-flex--countdown-div) :global(.vtex-flex--countdown-text) {
+    font-size: 16px;
+  }
+
+  :global(.vtex-flex--countdown-div) {
+    display: grid;
+  }
+
+  :global(.vtex-flex--countdown-text) {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+  :global(.vtex-flex--countdown-time-name) {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+
+  /* / CountDown */
+}

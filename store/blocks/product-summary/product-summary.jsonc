@@ -32,6 +32,7 @@
   "stack-layout#prodsum": {
     "children": [            
       "product-summary-image#shelf"
+      //"vtex.product-highlights@2.x:product-highlights#collection2"
       //"vtex.product-highlights@2.x:product-highlights#promotion" 
       //"vtex.product-highlights@2.x:product-highlights"  
      //"modal-trigger#quickview" // Check quickview.jsonc
@@ -56,6 +57,32 @@
   },
   
    //------------------- Fin promotion ------------------------
+   //------------------- inicio collection2 ------------------------
+
+   "vtex.product-highlights@2.x:product-highlights#collection2": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper#col2"]
+  },
+  "product-highlight-wrapper#col2": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text#col2"]
+  },
+  "product-highlight-text#col2": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+  //------------------- fin collection2 ------------------------
+
+
+
+
+
+
 
   "image#envioall":{
     "props":{
