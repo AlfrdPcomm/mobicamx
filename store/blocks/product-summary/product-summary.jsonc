@@ -104,7 +104,27 @@
   },
   //-------------------------------- Collection
 
+
   "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper#col2"]
+  },
+  "product-highlight-wrapper#colllection": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text#col2"]
+  },
+  "product-highlight-text#collection": {
+    "props": {
+      "message": "{highlightName}",      
+      "blockClass": "highcollection"
+    }
+  },
+
+ /* "vtex.product-highlights@2.x:product-highlights#collection": {
     "props": {
       "type": "collection",
       "filter": {
@@ -119,7 +139,7 @@
       "message": "{highlightName}",
       "blockClass": "highcollection"
     }
-  },
+  },*/
 
   "product-list-price#summary": {
     "props": {

@@ -1145,3 +1145,12 @@
 
   /* / CountDown */
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--hicol)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  display: block !important;
+}
+
+:global(.vtex-product-highlights-2-x-productHighlightWrapper--collection){
+  margin-top: 5px;
+}
