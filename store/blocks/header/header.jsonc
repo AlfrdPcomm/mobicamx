@@ -283,8 +283,8 @@
       "flex-layout.row#item9",
       "flex-layout.row#item10",
       "flex-layout.row#item11",
-      "flex-layout.row#item12",
-      "flex-layout.row#item13",
+      "flex-layout.row#item13", // Home Office
+      "flex-layout.row#item12", // Entrega Inmediata
       "flex-layout.row#logindraw",
       "flex-layout.row#ayudadraw"
     ],
