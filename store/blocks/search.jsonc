@@ -74,6 +74,7 @@
 
   "search-result-layout.desktop": {
     "children": [
+      "flex-layout.row#banner-one",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result",
@@ -85,6 +86,44 @@
       "defaultGalleryLayout": "grid"
     }
   },
+
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+  "flex-layout.row#banner-one": {
+    "children": [
+      "search-banner#one"
+    ]
+  },
+  "search-banner#two": {
+    "props": {
+      "area": "two",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+  "flex-layout.row#banner-two": {
+    "children": [
+      "search-banner#two"
+    ]
+  },
+  "search-banner#three": {
+    "props": {
+      "area": "three",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+  "flex-layout.row#banner-three": {
+    "children": [
+      "search-banner#three"
+    ]
+  },
+
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],
     "props": {
@@ -320,8 +359,12 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchinfomobile",
+      "flex-layout.row#banner-two",
+      "flex-layout.row#banner-three",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
+      // "flex-layout.row#sldsrch",
+      "slider-layout#contsrchselect1",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",

@@ -1154,3 +1154,7 @@
 :global(.vtex-product-highlights-2-x-productHighlightWrapper--collection){
   margin-top: 5px;
 }
+
+:global(.vtex-search-result-3-x-searchResultContainer) {
+  padding-left: 5px !important
+}
