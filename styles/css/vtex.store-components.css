@@ -1158,3 +1158,7 @@
 :global(.vtex-search-result-3-x-searchResultContainer) {
   padding-left: 5px !important
 }
+
+:globla(.vtex-wish-list-1-x-wishlistIcon ){
+  width: 0px;
+}
