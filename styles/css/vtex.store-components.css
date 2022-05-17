@@ -658,23 +658,14 @@
   font-size: 24px;
 }
 
-:global(.vtex-wish-list-1-x-wishlistIcon){
-  width: 0%;
-  display: none;
-}
 
-:global(.vtex-wish-list-1-x-wishlistIconContainer)
-  :global(.vtex-button)
-    :global(.vtex-button__label)::before{
-      content: url(assets/wishlistprod.png);
-      padding-top: 4px;
-}
 
 :global(.vtex-wish-list-1-x-wishlistIconContainer)
   :global(.vtex-button)
     :global(.vtex-button__label){
-      padding-right: 0%;
-      padding-left: 0%;
+      padding-right: 0;
+      padding-left: 0;
+      margin-top: 2px;
     }
 
 
@@ -1159,6 +1150,3 @@
   padding-left: 5px !important
 }
 
-:globla(.vtex-wish-list-1-x-wishlistIcon ){
-  width: 0px;
-}
